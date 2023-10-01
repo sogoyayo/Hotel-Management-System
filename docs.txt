@@ -1,0 +1,3613 @@
+Apptoken - HB2JHK342
+
+Note: endpoint will change from api.test.hotelsoffline.com... to api.hotelsoffline.com... when platform goes live 
+
+
+
+-------------------------------------------------------
+1.
+::User Register::
+endpoint: api.test.hotelsoffline.com/v1/register
+method:POST
+data
+	fname - first name
+	lname - last name
+	mail - email
+	phone - phone number
+	address
+	password - password
+	cpassword - confirm password
+	role - role id of user chosen role
+	country
+	city
+	state
+	zip_code
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+2.
+::User Login::
+endpoint: api.test.hotelsoffline.com/v1/login
+method:POST
+data
+	mail - email
+	password - password
+	longitude - 'user longitude in degress'
+	latitude - 'user latitude in degress'
+	
+reponses
+	success - true or false
+	message - ''
+	roleid - (integer)
+	rolename - ''
+	fname - 'fisrt name'
+	lname - 'last name'
+	phone - 'phone number'
+	mail - 'email'
+	address - ''
+	usertoken - 'user token'
+	timeregistered - 'time user registered'
+
+
+----------------------------------------------------
+3.
+::User Activation::
+endpoint: api.test.hotelsoffline.com/v1/activate-user
+method:POST
+data
+	code - activation code
+	
+reponses
+	success - true or false
+	message - ''
+	
+--------------------------------------------------
+4.
+::forgot password::
+endpoint: api.test.hotelsoffline.com/v1/forgot-password
+method:POST
+data
+	mail - user email
+	
+reponses
+	success - true or false
+	message - ''
+
+-------------------------------------------------
+5.
+::update password::
+endpoint: api.test.hotelsoffline.com/v1/update-password
+method:POST
+data
+	pword - user new password
+	oldpword - old password
+	usertoken - user token
+	
+reponses
+	success - true or false
+	message - ''
+
+
+-------------------------------------------------
+6.
+::setting::
+endpoint: api.test.hotelsoffline.com/v1/settings
+method:GET
+data
+	no-data-required
+	
+reponses
+	success - true or false
+	message - ''
+	appmail
+	appphone
+	appname
+
+
+----------------------------------------------
+7.
+::Add Hotel::
+endpoint: api.test.hotelsoffline.com/v1/add-new-hotel
+method:POST
+data
+	hotelname - ''
+	description - ''
+	image - file (not compulsory)
+	location - ''
+	creator_token - 'the token of the creator'
+
+
+reponses
+	success - true or false
+	message - ''
+	token - 'hotel unique token'
+
+---------------------------------------------
+8.
+::Get Role::
+endpoint: api.test.hotelsoffline.com/v1/get-roles
+method:GET
+data
+	no-data-required
+
+
+reponses
+	success - true or false
+	name - 'what users will see in select fields'
+	role - 'the unique value to be collected from user's choice'
+
+------------------------------------------------
+
+9.
+::Add Hotel Room::
+endpoint: api.test.hotelsoffline.com/v1/yayo/add-new-room
+method:POST
+data
+	hoteltoken - hotel id
+
+
+reponses
+	success - true or false
+	message - ''
+	roomid - room token
+
+
+------------------------------------------------------
+
+10.
+::Create contract
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-contract
+method:POST
+data
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	
+
+reponses
+	success - true or false
+	message - ''
+	contract_id - contract token
+	city - (string)
+	country - (string)
+	hotelname - (string)
+
+------------------------------------------------------
+
+11.
+::Credit wallet
+endpoint: api.test.hotelsoffline.com/v1/yayo/credit-wallet
+method:POST
+data
+	usertoken 
+	amount
+
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+12.
+::Debit wallet
+endpoint: api.test.hotelsoffline.com/v1/yayo/debit-wallet
+method:POST
+data
+	usertoken 
+	amount
+
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+13.
+::Delete contract
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-contract
+method:POST
+data
+	contract_id - contract token
+
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+14.
+::Delete hotel
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-hotel
+method:POST
+data
+	hoteltoken 
+
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+15.
+::Delete hotel room
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-room
+method:POST
+data
+	roomtoken 
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+16.
+::list contract by DMC
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-contract-one
+method:POST
+data
+	dmctoken 
+
+reponses
+	an array of objects
+
+	success - true or false
+	contract_name - contract name
+	contract_id - contract token
+    hoteltoken - hotel token
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From - 
+    child_age_To - 
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	meals_start - meals plan start date
+    meals_end - meals plan end date
+    cancel_start - cancel plan start date
+    cancel_end - cancel plan end date
+
+------------------------------------------------------
+
+
+17.
+::list contract by hotel Owner
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-contract-two
+method:POST
+data
+	token -  hotel owner token
+
+reponses
+	an array of objects
+
+	success - true or false
+	contract_name - contract name
+	contract_id - contract token
+    hoteltoken - hotel token
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From - 
+    child_age_To - 
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	meals_start - meals plan start date
+    meals_end - meals plan end date
+    cancel_start - cancel plan start date
+    cancel_end - cancel plan end date
+
+
+------------------------------------------------------
+
+
+18.
+::list contract by Account Owner
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-contract-three
+method:POST
+data
+	token - Account owner token 
+
+reponses
+	an array of objects
+
+	success - true or false
+	contract_name - contract name
+	contract_id - contract token
+    hoteltoken - hotel token
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From - 
+    child_age_To - 
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	meals_start - meals plan start date
+    meals_end - meals plan end date
+    cancel_start - cancel plan start date
+    cancel_end - cancel plan end date
+
+------------------------------------------------------
+
+
+19.
+::Wallet Balance::
+endpoint: api.test.hotelsoffline.com/v1/yayo/wallet-balance
+method:POST
+data
+	usertoken
+
+
+reponses
+	success - true or false
+	message - ''
+    walletbalance
+
+
+------------------------------------------------------
+
+
+20.
+::List Hotel Room::
+endpoint: api.test.hotelsoffline.com/v1/yayo/room-list
+method:POST
+data
+	hotelid - hotel id
+
+
+
+reponses
+	an array of objects
+
+	hotelid - 'hotel unique token'
+	room_name -
+	price - 'price of the room'
+	roomid - room unique token
+	availnum - 'available number of rooms'
+	timestamp - 'the time when room was created'
+
+------------------------------------------------
+
+
+21.
+::list hotel by DMC
+endpoint: api.test.hotelsoffline.com/v1/dmc/listHotels
+method:POST
+data (object)
+	token - dmc token 
+
+reponses
+	an array of objects
+
+	success - true or false
+	hotelid 
+	hotel_name 
+	hotel_desc
+    dmctoken 
+    hotel_owner 
+    account_owner 
+    location 
+    timestamp 
+    expiry_date 
+    latitude 
+    longitude 
+
+-----------------------------------------------------
+
+
+22.
+::list hotel by hotel owner
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-hotel-two
+method:POST
+data
+	token - hotel owner token 
+
+reponses
+	an array of objects
+
+	success - true or false
+	hotelid 
+	hotel_name 
+	hotel_desc
+    dmctoken 
+    hotel_owner 
+    account_owner 
+    location 
+    timestamp 
+    expiry_date 
+    latitude 
+    longitude 
+
+
+------------------------------------------------------
+
+
+23.
+::list hotel by Account Owner
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-hotel-three
+method:POST
+data
+	token - Account owner token 
+
+reponses
+	an array of objects
+
+	success - true or false
+	hotelid 
+	hotel_name 
+	hotel_desc
+    dmctoken 
+    hotel_owner 
+    account_owner 
+    location 
+    timestamp 
+    expiry_date 
+    latitude 
+    longitude 
+
+
+------------------------------------------------------
+
+24.
+::Add DMC to a hotel by account owner::
+endpoint: api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel
+method:POST
+data (object)
+	hoteltoken - hotel token
+	usertoken - token of the account owner or admin
+	dmc_email - email of the dmc or user
+	source - the external system (optonal)
+	hotelcode - code from the external source (only neccessary if source is not empty)
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+25.
+::Add Hotel Owner to a hotel by account owner::
+endpoint: api.test.hotelsoffline.com/v1/yayo/add-hotel-owner-hotels
+method:POST
+data
+	hoteltoken - hotel token
+	account_owner - token of the account owner or user
+	hotel_owner - email of the hotel owner or user
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+26.
+::Update the contract details::
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-contract
+method:POST
+data
+	type - 
+	token - contract token
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+27.
+::Update business credentials::
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-business-creds
+method:POST
+data
+	type - 
+	token - hotel owner token
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+28.
+::Create date plans for contract
+endpoint: api.test.hotelsoffline.com/v1/yayo/contract-date-plan
+method:POST
+data
+	token - contract token
+	dmctoken - DMC token (string)
+	roomtoken - room token (string)
+	room_price - Price of the room (INT)
+	start_date - start date of the contract (mm/dd/yy)
+	exp_date _ Expiry date (mm/dd/yy)
+	avail_room_num - Available numbers (INT)
+
+	status  - contract status (string)
+	child_age  - age of child (INT)
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+reponses
+	success - true or false
+	message - ''
+	
+
+
+------------------------------------------------------
+
+29.
+::contract detail
+endpoint: api.test.hotelsoffline.com/v1/yayo/contract-detail
+method:POST
+data
+	token - contract token 
+reponses
+	an array of objects
+	success - true or false
+	contract_name - contract name
+	contract_id - contract token
+    hoteltoken - hotel token
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From - 
+    child_age_To - 
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	meals_start - meals plan start date
+    meals_end - meals plan end date
+    cancel_start - cancel plan start date
+    cancel_end - cancel plan end date
+
+    business_name - (string)
+	city - (string)
+	country - (string)
+
+------------------------------------------------------
+
+
+
+30.
+::list date plan
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-date-plan
+method:POST
+data
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+reponses
+	an array of objects
+
+	success - true or false
+	
+	contractToken - contract token
+	
+    start_date - start date of the contract
+    exp_date - contract expiry date
+
+------------------------------------------------------
+
+
+31.
+::Date plan of contract
+endpoint: api.test.hotelsoffline.com/v1/yayo/date-plan-update
+method:POST
+data
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	roomtoken - room token (string)
+	token - contract token (string)
+
+	start_date - start date of the contract (mm/dd/yy)
+	exp_date - Expiry date (mm/dd/yy)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+	
+
+	room - room type e.g premium (string)
+	price_sgl - price for sgl (INT)
+	price_dbl - price for dbl (INT)
+	price_trl - price for trl (INT)
+	price_qud - price for qud (INT)
+	price_chd1 - price for chd1 (INT)
+	price_chd2 - price for chd1 (INT)
+	inventory_room - price for inventory_room (INT)
+	inventory_rel - price for inventory_rel (INT)
+
+	
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+32.
+::Meals plan of contract
+endpoint: api.test.hotelsoffline.com/v1/yayo/meals-plan-update
+method:POST
+data
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+	meals_start - From date for meals (mm/dd/yy)
+	meals_end _ To date for meals (mm/dd/yy)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	rooms_only_child - (INT)
+    rooms_only_adult - (INT)
+	
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+33.
+::Cancel plan of contract
+endpoint: api.test.hotelsoffline.com/v1/yayo/cancel-plan-update
+method:POST
+data
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+	cancel_start - start date for cancel (mm/dd/yy)
+	cancel_end _ end date for cancel (mm/dd/yy)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+	
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+34.
+::list meals plan
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-meals-plan
+method:POST
+data
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	contractToken - contract token (string)
+
+	meals_start - From date for meals
+	meals_end _ To date for meals
+
+
+------------------------------------------------------
+
+
+35.
+::list Cancel plan
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-cancel-plan
+method:POST
+data
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	contractToken - contract token (string)
+
+	cancel_start - start date for cancel 
+	cancel_end _ end date for cancel 
+
+
+------------------------------------------------------
+
+36.
+::list Cancel plan details
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-cancel-plan-details
+method:POST
+data
+	token - contract token (string)
+	cancel_start - start date for cancel (mm/dd/yy)
+	cancel_end _ end date for cancel (mm/dd/yy)
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	business_name - (string)
+	city - (string)
+	country - (string)
+
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	contractToken - contract token (string)
+
+	cancel_start - start date for cancel
+	cancel_end _ end date for cancel
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+	
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+
+------------------------------------------------------
+
+37.
+::list meals plan details
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-meals-plan-details
+method:POST
+data
+	token - contract token (string)
+	meals_start - From date for meals (mm/dd/yy)
+	meals_end _ To date for meals (mm/dd/yy)
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	business_name - (string)
+	city - (string)
+	country - (string)
+
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	contractToken - contract token (string)
+
+	meals_start - From date for meals
+	meals_end _ To date for meals
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	rooms_only_child - (INT)
+    rooms_only_adult - (INT)
+
+
+------------------------------------------------------
+
+38.
+::list date plan details
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-date-plan-details
+method:POST
+data
+	token - contract token (string)
+	start_date - start date of the contract (mm/dd/yy)
+    exp_date - contract expiry date (mm/dd/yy)
+
+reponses
+	an array of objects
+
+	success - true or false
+	
+	business_name  - dmc business name (string)
+	city  - city (string)
+	country  - country (string)
+	contract_name - contract name
+	contractToken - contract token
+	hoteltoken - hotel token (string)
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+
+	room - room type e.g premium (string)
+	price_sgl - price for sgl (INT)
+	price_dbl - price for dbl (INT)
+	price_trl - price for trl (INT)
+	price_qud - price for qud (INT)
+	price_chd1 - price for chd1 (INT)
+	price_chd2 - price for chd1 (INT)
+	inventory_room - price for inventory_room (INT)
+	inventory_rel - price for inventory_rel (INT)
+
+------------------------------------------------------
+
+
+39.
+::offer plan update
+endpoint: api.test.hotelsoffline.com/v1/yayo/offer-plan-update
+method:POST
+data
+
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy)
+	booking_from - start date for booking (mm/dd/yy)
+	booking_to - end date for booking (mm/dd/yy)
+	
+	link1 - (INT)
+	link2 - (INT)
+	link3 - (INT)
+	link4 - (INT)
+	link5 - (INT)
+
+	discount_amt - discount amount  (INT)
+	discount_rate - discount percentage (INT)
+	source_market -  (string)
+	offer - 
+	order - 
+
+	$offers_room_type - 
+	$offer_room - 
+	$offer_meals - 
+	$offer_supplement - 
+
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+40.
+::list offer plan
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-offer-plan
+method:POST
+data
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	contractToken - contract token (string)
+
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy)
+	booking_from - start date for booking (mm/dd/yy)
+	booking_to - end date for booking (mm/dd/yy) 
+
+
+------------------------------------------------------
+
+41.
+::list offer plan details
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-offer-plan-details
+method:POST
+data
+	token - contract token (string)
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy)
+	booking_from - start date for booking (mm/dd/yy)
+	booking_to - end date for booking (mm/dd/yy) 
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	business_name  - dmc business name (string)
+	city  - city (string)
+	country  - country (string)
+
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	contractToken - contract token (string)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy)
+	booking_from - start date for booking (mm/dd/yy)
+	booking_to - end date for booking (mm/dd/yy)
+	
+	link1 - (INT)
+	link2 - (INT)
+	link3 - (INT)
+	link4 - (INT)
+	link5 - (INT)
+
+	discount_amt - discount amount  (INT)
+	discount_rate - discount percentage (INT)
+	source_market - source_market (string)
+	offer - 
+	
+
+------------------------------------------------------
+
+
+42.
+::Confirm Date plan
+endpoint: api.test.hotelsoffline.com/v1/yayo/confirm-date-plan
+method:POST
+data
+	start_date - DMC token (mm/dd/yy)
+	exp_date - hotel token (mm/dd/yy)
+	token - contract token (string)
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+43.
+::supplement plan update
+endpoint: api.test.hotelsoffline.com/v1/yayo/supplement-plan-update
+method:POST
+data
+
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy)
+
+	price_childto - price for child to  (INT)
+	price_childfrom - price for child from  (INT)
+	price_adult - price for adult (INT)
+	service -  (string)
+	subscription - (string)
+	Sup_type - 
+
+	supp_child 
+	supp_perc -
+
+	supp_room_type- 
+	child_amount- 
+	adult_amount- 
+	child_perc- 
+	adult_perc- 
+
+	supp_child_age_from
+	supp_child_age_to
+
+	id
+
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+44.
+::list supplement plan
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-supplement-plan
+method:POST
+data
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	contractToken - contract token (string)
+
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy) 
+
+
+------------------------------------------------------
+
+45.
+::list supplement plan details
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-supplement-plan-details
+method:POST
+data
+	token - contract token (string)
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy) 
+
+reponses
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	business_name  - dmc business name (string)
+	city  - city (string)
+	country  - country (string)
+
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	contractToken - contract token (string)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy)
+
+	price_child - price for child  (INT)
+	price_adult - price for adult (INT)
+	service -  (string)
+	subscription - (string)
+	
+
+------------------------------------------------------
+
+46.
+::Change date duration
+endpoint: api.test.hotelsoffline.com/v1/yayo/change-date-duration
+method:POST
+data
+	new_start_date - new satrt date (mm/dd/yy)
+	old_start_date -  old start date (unix time)
+	new_end_date - new end date (mm/dd/yy)
+	old_end_date - old end date (unix time)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+
+
+47.
+::Change date duration for cancellation policy
+endpoint: api.test.hotelsoffline.com/v1/yayo/change-date-duration-cancel
+method:POST
+data
+	new_start_date - new satrt date (mm/dd/yy)
+	old_start_date -  old start date (mm/dd/yy)
+	new_end_date - new end date (mm/dd/yy)
+	old_end_date - old end date (mm/dd/yy)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+
+48.
+::Change date duration for meals policy
+endpoint: api.test.hotelsoffline.com/v1/yayo/change-date-duration-meals
+method:POST
+data
+	new_start_date - new satrt date (mm/dd/yy)
+	old_start_date -  old start date (mm/dd/yy)
+	new_end_date - new end date (mm/dd/yy)
+	old_end_date - old end date (mm/dd/yy)
+
+reponses
+
+	success - true or false
+	message - ''
+
+-----------------------------------------------------------
+
+
+
+49.
+::Change date duration for offers
+endpoint: api.test.hotelsoffline.com/v1/yayo/change-date-duration-offers
+method:POST
+data
+	new_start_date - new satrt date (mm/dd/yy)
+	old_start_date -  old start date (mm/dd/yy)
+	new_end_date - new end date (mm/dd/yy)
+	old_end_date - old end date (mm/dd/yy)
+
+reponses
+
+	success - true or false
+	message - ''
+
+-----------------------------------------------------------
+
+
+
+50.
+::Change date duration for offers booking
+endpoint: api.test.hotelsoffline.com/v1/yayo/change-date-duration-offers-booking
+method:POST
+data
+	new_start_date - new satrt date (mm/dd/yy)
+	old_start_date -  old start date (mm/dd/yy)
+	new_end_date - new end date (mm/dd/yy)
+	old_end_date - old end date (mm/dd/yy)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------------
+
+
+
+51.
+::Change date duration for offers booking
+endpoint: api.test.hotelsoffline.com/v1/yayo/change-date-duration-sup
+method:POST
+data
+	new_start_date - new satrt date (mm/dd/yy)
+	old_start_date -  old start date (mm/dd/yy)
+	new_end_date - new end date (mm/dd/yy)
+	old_end_date - old end date (mm/dd/yy)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------------
+
+
+
+52
+::Editing Cancellation policy
+endpoint: api.test.hotelsoffline.com/v1/yayo/cancel-plan-update2
+method:POST
+data
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+	cancel_start - start date for cancel (mm/dd/yy)
+	cancel_end _ end date for cancel (mm/dd/yy)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+	
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	id - (INT)
+
+reponses
+
+	success - true or false
+	message - ''
+
+---------------------------------------------------------------
+
+53.
+::Create amenities
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-amenities
+method:POST
+data
+	room_amenities - room amenities (string)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------------
+
+
+54.
+::Create room category
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-room-category
+method:POST
+data
+	category - room category (string)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------------
+
+
+55.
+::list of amenities
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-amenities
+method:POST
+data
+	No data
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	id  - id of the amenities (string)
+	amenities  - room amenities (string)
+
+
+------------------------------------------------------------
+
+
+56.
+::list of room category
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-room-category
+method:POST
+data
+	no-data
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	id  - id of the room category (string)
+	category  - room category (string)
+
+------------------------------------------------------------
+
+
+57.
+::insert selected amenities for the room
+endpoint: api.test.hotelsoffline.com/v1/yayo/selected-amenities
+method:POST
+data
+	roomtoken - room token or id (string)
+	room_amenities -  selected amenities by the room (string)
+	amenities_id - id of the selected amenities (int)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------------
+
+
+58.
+::delete amenities
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-amenities
+method:POST
+data
+	room_amenities - amenities (string)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------------
+
+
+59.
+::delete room category
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-room-category
+method:POST
+data
+	category - room category (string)
+
+reponses
+
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------------
+
+
+
+61.
+::Get Contract Rooms::
+endpoint: api.test.hotelsoffline.com/v1/get-contract-rooms
+method:POST
+data
+	token - 'contract token'
+
+
+reponses
+	all contract data.
+
+
+
+-------------------------------------------------------
+
+
+62.
+::Get Contract Date Data::
+endpoint: api.test.hotelsoffline.com/v1/get-contract-date-data
+method:POST
+data
+	token - 'contract token'
+	timestamp - 'date timestamp'
+
+
+reponses
+	all contract date data.
+
+
+------------------------------------------------------------
+
+
+63.
+::Override::
+endpoint: api.test.hotelsoffline.com/v1/yayo/override
+method:POST
+data
+	
+    recipient - (string)
+    target_amount1 - (INT) 
+    target_amount2 - (INT)
+    target_amount3 - (INT)
+    override1 - (INT)
+    override2 - (INT)
+    override3 - (INT)
+    type - (string)
+	nature
+	start_duration (mm/dd/yy)
+    end_duration - (mm/dd/yy)
+	country
+	hoteltoken
+
+    nature - (string)
+	
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+64.
+::Markup::
+endpoint: api.test.hotelsoffline.com/v1/yayo/markup
+method:POST
+data
+	contract_token - contract token (string)
+	user_type -  (string)
+	markup - (INT)
+	category
+	seller_type
+	seller
+	buyer_type
+	buyer
+	country
+	hoteltoken
+
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+65.
+::Markup list::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-markup
+method:POST
+data
+	No data 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	contract_token - contract token (string)
+	markup - (INT)
+	contract_name - (string)
+	user_type - (string)
+	category
+	supplier_type
+	seller_type
+	seller
+	buyer_type
+	buyer
+	id - 
+	timestamp - 
+
+
+------------------------------------------------------
+
+
+66.
+::Override list::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-override
+method:POST
+data
+	No data 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id
+    recipient - (string)
+    target_amount1 - (INT) 
+    target_amount2 - (INT)
+    target_amount3 - (INT)
+    override1 - (INT)
+    override2 - (INT)
+    override3 - (INT)
+    type - (string)
+    start_duration - (string)
+    end_duration - (string)
+    nature - (string)
+    timestamp
+
+
+------------------------------------------------------
+
+
+67.
+::delete override::
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-override
+method:POST
+data
+	id - id of the override (INT)
+
+reponses
+
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------------
+
+
+68.
+::delete Markup::
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-markup
+method:POST
+data
+	id - id of the markup (INT)
+
+reponses
+
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------------
+
+
+68.
+::List All Contracts::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-contract
+method:POST
+data
+	
+
+reponses
+	an array of objects
+
+	success - true or false
+
+	contract_name - contract name
+	contract_id - contract token
+    hoteltoken - hotel token
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From - 
+    child_age_To - 
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	meals_start - meals plan start date
+    meals_end - meals plan end date
+    cancel_start - cancel plan start date
+    cancel_end - cancel plan end date
+
+    business_name - (string)
+	city - (string)
+	country - (string)
+
+
+------------------------------------------------------------
+
+
+69.
+::list of All Hotels::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-hotels
+method:POST
+data
+	No data 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	hotelid - (INT)
+    hotel_name - (string)
+    hotel_desc - (string)
+    dmctoken - (string)
+    hotel_owner - (string)
+    account_owner - (string)
+    location - (string)
+    timestamp - (string)
+    latitude - (string)
+    longitude - (string)
+    display - (IN)
+
+
+------------------------------------------------------
+
+
+70.
+::list of All DMC::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-dmc
+method:POST
+data
+	No data 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id - (strings) 
+    token - (strings)
+    mail - (strings)
+    first_name - (strings)
+    last_name - (strings)
+
+
+------------------------------------------------------
+
+
+71.
+::List Markup by Contract::
+endpoint: api.test.hotelsoffline.com/v1/yayo/contract-markup-list
+method:POST
+data
+	token - contract token (string) 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id
+    contract_token
+    markup
+    user_type
+    timestamp
+    contract_name
+    category
+
+
+------------------------------------------------------
+
+
+72.
+::List Override by DMC::
+endpoint: api.test.hotelsoffline.com/v1/yayo/dmc-override-list
+method:POST
+data
+	token - dmc token (string)
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id
+    recipient - (string)
+    target_amount1 - (INT) 
+    target_amount2 - (INT)
+    target_amount3 - (INT)
+    override1 - (INT)
+    override2 - (INT)
+    override3 - (INT)
+    type - (string)
+    start_duration - (string)
+    end_duration - (string)
+    nature - (string)
+    timestamp
+
+
+------------------------------------------------------
+
+72.
+::Override list by Hotel Owner::
+endpoint: api.test.hotelsoffline.com/v1/yayo/hotel-owner-override-list
+method:POST
+data
+	token - hotel owner token (string)
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id
+    recipient - (string)
+    target_amount1 - (INT) 
+    target_amount2 - (INT)
+    target_amount3 - (INT)
+    override1 - (INT)
+    override2 - (INT)
+    override3 - (INT)
+    type - (string)
+    start_duration - (string)
+    end_duration - (string)
+    nature - (string)
+    timestamp
+
+
+------------------------------------------------------
+
+73.
+::list of All Hotel Owner::
+endpoint: api.test.hotelsoffline.com/v1/yayo/hotel-owner-list
+method:POST
+data
+	No data 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id - (string) 
+    token - (string)
+    mail - (string)
+    first_name - (string)
+    last_name - (string)
+
+
+------------------------------------------------------
+
+
+74.
+::list of All Traveler::
+endpoint: api.test.hotelsoffline.com/v1/yayo/traveller-list
+method:POST
+data
+	No data 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id - (string) 
+    token - (string)
+    mail - (string)
+    first_name - (string)
+    last_name - (string)
+
+
+------------------------------------------------------
+
+
+75.
+::Update Override::
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-override
+method:POST
+data
+	type - (string)
+	start_duration - (string)
+	end_duration - (string)
+	nature - (string)
+	recipient - token (string)
+	override1 - (INT)
+	override2 - (INT)
+	override3 - (INT)
+	amount1 - (INT)
+	amount2 - (INT)
+	amount3 - (INT)
+	id - (INT)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+
+75.
+::Update Override::
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-markup
+method:POST
+data
+	markup - (INT)
+	seller_type - (string)
+	seller - (string)
+	buyer_type - (string)
+	buyer - (string)
+	id - (INT)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+
+76.
+::List Contracts by Country And Hotel::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-contract-markup
+method:POST
+data
+	country - name of country (string)
+	hoteltoken - token (INT)
+
+reponses
+	an array of objects
+
+	success - true or false
+
+	contract_name - contract name
+	contract_id - contract token
+    hoteltoken - hotel token
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From - 
+    child_age_To - 
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	meals_start - meals plan start date
+    meals_end - meals plan end date
+    cancel_start - cancel plan start date
+    cancel_end - cancel plan end date
+
+    business_name - (string)
+	city - (string)
+	country - (string)
+
+
+------------------------------------------------------------
+
+
+77.
+::list Contracts by category::
+endpoint: api.test.hotelsoffline.com/v1/yayo/markup-list-category
+method:POST
+data
+	contract_token - contract token (string) 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	roomName
+    hotelname
+    roomtoken
+    category
+
+
+------------------------------------------------------
+
+
+78.
+::List Contracts by Country::
+endpoint: api.test.hotelsoffline.com/v1/yayo/markup-hotel-list
+method:POST
+data
+	country - country (string) 
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	hoteltoken
+    hotelname
+
+
+------------------------------------------------------
+
+
+79.
+::Create Special Markup::
+endpoint: api.test.hotelsoffline.com/v1/yayo/special-markup
+method:POST
+data
+	markup_id -  (INT) 
+	markup -  ()
+	user_type -  (string)
+	usertoken -  (string)
+
+reponses
+
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+80.
+::List Special Markup::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-special-markup
+method:POST
+data
+	
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id
+	markup_id -  (INT) 
+	markup -  ()
+	user_type -  (string)
+	usertoken -  (string)
+	timestamp
+
+------------------------------------------------------
+
+81.
+::List Account Owners::
+endpoint: api.test.hotelsoffline.com/v1/list-accountowner
+method:POST
+data
+	
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+	id
+	...user data...
+
+
+------------------------------------------------------
+
+82.
+::Create Service::
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-service
+method:POST
+data
+	usertoken - user token of the person creating the service
+	service_name - (string)
+	date_from - (mm/dd/yy)
+	date_to - (mm/dd/yy)
+	location - (string)
+	country - (string)
+	city - (string)
+	longitude - (string)
+	latitude - (string)
+	description - (string)
+	social_media_link - (string)
+	youtube_link - (string)
+	price_adult - (INT)
+	price_child - (INT)
+	child_age_from - (INT)
+	child_age_to - (INT)
+	discounts - (INT)
+	discount_from - (mm/dd/yy)
+	discount_to - (mm/dd/yy)
+	min_pax_discount - (INT)
+	avatar
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+
+83.
+::List Service by usertoken::
+endpoint: api.test.hotelsoffline.com/v1/yayo/service-list
+method:POST
+data
+	usertoken - token of user that created the service (string)	
+
+reponses
+
+	an array of objects
+
+	success - true or false
+	message - ''
+
+	usertoken - user token of the person creating the service
+	service_name - (string)
+	date_from - (mm/dd/yy)
+	date_to - (mm/dd/yy)
+	location - (string)
+	country - (string)
+	city - (string)
+	longitude - (string)
+	latitude - (string)
+	description - (string)
+	social_media_link - (string)
+	youtube_link - (string)
+	price_adult - (INT)
+	price_child - (INT)
+	child_age_from - (INT)
+	child_age_to - (INT)
+	discounts - (INT)
+	discount_from - (mm/dd/yy)
+	discount_to - (mm/dd/yy)
+	min_pax_discount - (INT)
+	image_name - (string)
+	image_url - (string)
+	timestamp
+	id
+
+------------------------------------------------------
+
+
+84.
+::Create Package::
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-package
+method:POST
+data
+	package_name - name of package(string)
+	
+
+reponses
+
+	success - true or false
+	message - ''
+	package_id - token or id of package 
+
+------------------------------------------------------
+
+
+85.
+::Update Package Content::
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-package-content
+method:POST
+data
+	$package_id - package id (string)
+	$description - (string)
+	$youtube_link - (string)
+	$sharing_link - (string)
+	avatar - for image
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+
+86.
+::Create Package Day::
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-package-day
+method:POST
+data
+	day - day number (INT)
+	package_id - (string)
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+
+87.
+::Create Package Day Item::
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-package-day-item
+method:POST
+data
+	day_id - id of the package day (INT)
+	seller_type - (UPPERCASE) type of the seller (string)
+	seller - id or token of seller (string)
+	package_type - (UPPERCASE) type of the package source (string)
+	package_type_id - id or token of package source (INT)
+	package_id - id or token of package (string)
+	country - country name
+	contract_token - contract token
+	roomtoken - room token
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+88.
+::List Package Day::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-package-day
+method:POST
+data
+	package_id - id or token of package (string)
+
+reponses
+	array of objects
+
+	id
+	day
+	package_id
+	timestamp
+
+------------------------------------------------------
+
+89.
+::List Package Day Item::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-package-day-item
+method:POST
+data
+	package_id - id or token of package (string)
+	day - (string)
+
+reponses
+
+	success
+	message
+	id
+	package_id
+	day_id
+	seller_type
+	seller
+	package_type
+	package_type_id
+	seller_type_name
+	package_type_name
+	timestamp'
+
+------------------------------------------------------
+
+90.
+::List All Package::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-all-package
+method:POST
+data
+
+
+reponses
+
+	id
+	package_id
+	package_name
+	sharing_link
+	youtube_link
+	image_url
+	description
+	timestamp
+
+------------------------------------------------------
+
+91.
+::Wallet History::
+endpoint: api.test.hotelsoffline.com/v1/yayo/wallet-history
+method:POST
+data
+	usertoken
+
+reponses
+
+	id
+	usertoken
+	log
+	amount
+	type
+	timestamp
+
+------------------------------------------------------
+
+92.
+::System Wallet Balance::
+endpoint: api.test.hotelsoffline.com/v1/yayo/system-wallet-balance
+method:POST
+data
+
+reponses
+	success - true or false
+	message - ''
+    systemWalletBalance
+
+------------------------------------------------------
+
+93.
+::Wallet Balance::
+endpoint: api.test.hotelsoffline.com/v1/yayo/wallet-balance
+method:POST
+data
+	usertoken
+
+
+reponses
+	success - true or false
+	message - ''
+    walletbalance
+
+------------------------------------------------------
+
+94.
+::Transfer::
+endpoint: api.test.hotelsoffline.com/v1/yayo/transfer
+method:POST
+data
+	usertoken
+    amount
+    email
+
+
+reponses
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+95.
+::Withdraw::
+endpoint: api.test.hotelsoffline.com/v1/yayo/withdraw
+method:POST
+data
+	usertoken
+    amount
+    options
+
+
+reponses
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+96.
+::System Wallet History::
+endpoint: api.test.hotelsoffline.com/v1/yayo/system-wallet-history
+method:POST
+data
+
+
+reponses
+	id
+	usertoken
+	log
+	amount
+	type
+	timestamp
+	email
+	options
+
+------------------------------------------------------
+
+97.
+::Confirm Withdrawwal::
+endpoint: api.test.hotelsoffline.com/v1/yayo/confirm-withdrawal
+method:POST
+data
+	id - id of the withdrawal
+
+reponses
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+98.
+::List All withdrawal::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-withdrawals
+method:POST
+data
+
+reponses
+	id - id of the withdrawal
+	usertoken - token of user
+	amount - amount of the withdrawal
+	timestamp
+
+------------------------------------------------------
+
+99.
+::Search Engine::
+endpoint: api.test.hotelsoffline.com/v1/yayo/search-engine
+method:POST
+data
+	keyword - (string)
+	from - date from (string)
+	to - date to (string)
+
+reponses
+	an array of objects
+
+	success - true or false
+
+	contract_name - contract name
+	contract_id - contract token
+    hoteltoken - hotel token
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From - 
+    child_age_To - 
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	meals_start - meals plan start date
+    meals_end - meals plan end date
+    cancel_start - cancel plan start date
+    cancel_end - cancel plan end date
+
+    business_name - (string)
+	city - (string)
+	country - (string)
+
+------------------------------------------------------------
+
+100.
+::List Room Amenities::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-room-amenities
+method:POST
+data
+roomtoken - room id (INT)
+
+reponses
+	id - 
+	room_amenities - name of room amenites
+	amenities - id of amenites
+	roomtoken - 
+	timestamp
+
+------------------------------------------------------
+
+101.
+::List Contract by Country::
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-contract-country
+method:POST
+data
+	country - (string)
+
+reponses
+	an array of objects
+
+	success - true or false
+
+	contract_name - contract name
+	contract_id - contract token
+    hoteltoken - hotel token
+    roomtoken - room token
+    room_desc - room description
+    dmctoken - dmc token
+    hotel_owner - hotel owner token
+    account_owner - account owner token
+    hotelname - hotel name
+    hotel_desc - hotel description
+    room_name - room name
+    price - contract price
+    availnum - available number of rooms
+    timestamp - time when contarct was created
+    start_date - start date of the contract
+    expiry_date - contract expiry date
+    display 
+
+ 	status  - contract status (string)
+	child_age_From - 
+    child_age_To - 
+	currency  - currency (string)
+	occupy_min  - minimum number of occupants for adults (INT)
+	occupy_max  - maximum number of occupants for adults (INT)
+
+	occupy_min_child  - minimum number of occupants for child (INT)
+	occupy_max_child  - maximum number of occupants for child (INT)
+	release_date  - minimum number of days to book before arrival (INT)
+	breakfast_child  - breakfast price for child (INT)
+	breakfast_adult  - breakfast price for adult (INT)
+
+	fb_child  - full bar price for child (INT)
+	fb_adult  - full bar price for adult (INT)
+	hb_child  - half bar price for child (INT)
+	hb_adult  - half bar price for adult (INT)
+
+	sai_child  -  soft all inclusive for child (INT)
+	sai_adult  -  soft all inclusive for adult (INT)
+	all_inclusive_child  -  all inclusive for child (INT)
+	all_inclusive_adult  -  all inclusive for adult (INT)
+	uai_child  - ultra all inclusive for child (INT)
+	uai_adult  -  ultra all inclusive for adult (INT)
+
+	cancel_days  - No of days allowed to cancel (INT)
+	cancel_penalty  - price/amount for cancellation penalty (INT)
+
+	meals_start - meals plan start date
+    meals_end - meals plan end date
+    cancel_start - cancel plan start date
+    cancel_end - cancel plan end date
+
+    business_name - (string)
+	city - (string)
+	country - (string)
+
+
+------------------------------------------------------------
+
+102.
+::Edit Service::
+endpoint: api.test.hotelsoffline.com/v1/yayo/edit-service
+method:POST
+data
+	id - (INT)
+	usertoken - user token of the person creating the service
+	service_name - (string)
+	date_from - (mm/dd/yy)
+	date_to - (mm/dd/yy)
+	location - (string)
+	country - (string)
+	city - (string)
+	longitude - (string)
+	latitude - (string)
+	description - (string)
+	social_media_link - (string)
+	youtube_link - (string)
+	price_adult - (INT)
+	price_child - (INT)
+	child_age_from - (INT)
+	child_age_to - (INT)
+	discounts - (INT)
+	discount_from - (mm/dd/yy)
+	discount_to - (mm/dd/yy)
+	min_pax_discount - (INT)
+	avatar
+
+reponses
+
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+103.
+::Delete Service
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-service
+method:POST
+data
+	id - id of service
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+104.
+::Delete Package
+endpoint: api.test.hotelsoffline.com/v1/delete-package-day-item
+method:POST
+data
+	id - id of package
+
+reponses
+	success - true or false
+	message - ''
+
+------------------------------------------------------
+
+
+105.
+:: get rooms in search ::
+endpoint: api.test.hotelsoffline.com/v1/search-get-rooms
+method:POST
+data
+	contract_token - contract token
+	from - date from (from the search)
+	to - date to (from the search)
+	hoteltoken - hotel token
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+
+106.
+:: get meals plan in search ::
+endpoint: api.test.hotelsoffline.com/v1/search-get-meals
+method:POST
+data
+	contract_token - contract token
+	from - date from (from the search)
+	to - date to (from the search)
+
+reponses
+	success - true or false
+	message - ''
+
+
+------------------------------------------------------
+
+107.
+::Create Supplement
+endpoint: api.test.hotelsoffline.com/v1/supplement-plan-create
+method:POST
+data
+	contract_name - contract name (string)
+	dmctoken - DMC token (string)
+	hoteltoken - hotel token (string)
+	token - contract token (string)
+
+	status  - contract status (string)
+	child_age_From  - age of child From (INT)
+	child_age_To  - age of child To (INT)
+	currency  - currency (string)
+
+	stay_from - start date for stay (mm/dd/yy)
+	stay_to - end date for stay (mm/dd/yy)
+
+	price_childto - price for child to  (INT)
+	price_childfrom - price for child from  (INT)
+	price_adult - price for adult (INT)
+	service -  (string)
+	subscription - (string)
+	Sup_type - 
+
+	supp_child 
+	supp_perc
+
+	supp_room_type- 
+	child_amount- 
+	adult_amount- 
+	child_perc- 
+	adult_perc- 
+
+	supp_child_age_from
+	supp_child_age_to
+	
+
+reponses
+	success - true or false
+	message - ''
+
+
+----------------------------------------------------------
+
+
+108.
+:: get offers for rooms in search ::
+endpoint: api.test.hotelsoffline.com/v1/search-get-offers-rooms
+method:POST
+data
+	contract_token - contract token
+	from - date from (from the search)
+	to - date to (from the search)
+
+reponses
+	an object
+
+
+------------------------------------------------------
+
+
+109.
+:: get offers for meals in search ::
+endpoint: api.test.hotelsoffline.com/v1/search-get-offers-meals
+method:POST
+data
+	contract_token - contract token
+	from - date from (from the search)
+	to - date to (from the search)
+
+reponses
+	an object
+
+
+-------------------------------------------------------
+
+
+110.
+:: get offers for meals in search ::
+endpoint: api.test.hotelsoffline.com/v1/search-get-supplements
+method:POST
+data
+	contract_token - contract token
+	from - date from (from the search)
+	to - date to (from the search)
+	roomtoken - room token
+
+reponses
+	an object
+
+
+-------------------------------------------------------
+
+111.
+:: Map external Hotels ::
+endpoint: api.test.hotelsoffline.com/v1/map-hotel
+method:POST
+data
+	- source - source of where hotel is coming from (for now only "Ezee" should be in the select field.)
+	- name - hotel name
+	- hotelcode - hotel code from source
+	- sourceid - the ID of the source.
+
+reponses
+	an object
+
+-------------------------------------------------------
+
+112.
+:: Map external Hotels Rooms ::
+endpoint: api.test.hotelsoffline.com/v1/map-hotel
+method:POST
+data
+	- roomid_external - id of the external room
+	- roomtoken - room token of the room to be mapped to
+
+reponses
+	an object
+
+-------------------------------------------------------
+
+
+113.
+:: List External Hotel ::
+endpoint: api.test.hotelsoffline.com/v1/get-external-hotelsByDMC
+method:POST
+data
+	- dmctoken - id dmc token
+
+reponses
+	an object
+
+-------------------------------------------------------
+
+114.
+:: List External rooms for external Hotel ::
+endpoint: api.test.hotelsoffline.com/v1/get-external-roomByExHotel
+method:POST
+data
+	- hotelid_external - id of external hotel
+
+reponses
+	an object
+
+-------------------------------------------------------
+
+
+115.
+:: Booking via Wallet ::
+endpoint: api.test.hotelsoffline.com/v1/book-wallet
+method:POST
+data (Obect)
+	- usertoken - user's token
+	- dmctoken - dmc token
+	- hoteltoken - hotel token
+	- totalAmount - totalAmount to be paid
+	- bookingData - other booking data breakdown
+reponses
+	an object
+
+
+--------------------------------------------------------------------
+
+
+116.
+:: Booking via Card ::
+endpoint: api.test.hotelsoffline.com/v1/book-card
+method:POST
+data (Obect)
+	- usertoken - user's token
+	- dmctoken - dmc token
+	- hoteltoken - hotel token
+	- totalAmount - totalAmount to be paid
+	- bookingData - other booking data breakdown
+	- contractToken - contract's token
+reponses
+	an object
+
+--------------------------------------------------------------------
+
+117.
+:: Get Booking History ::
+endpoint: api.test.hotelsoffline.com/v1/getBookingHistory
+method:POST
+data (Obect)
+	- usertoken - user's token
+reponses
+	an object
+
+-------------------------------------------------------------------
+
+118.
+:: Add new External Hotel ::
+endpoint: api.test.hotelsoffline.com/v1/add-new-external-hotel
+method:POST
+data (Obect)
+	- usertoken - user's token
+	- hotelcode - hotel code from the source
+	- hotelname - name of hotel
+	- sourceid - source ID
+	- dmctoken - dmc token
+	- aotoken - account owner token
+	
+reponses
+	an object
+
+--=-------------------------------------------------------------------
+
+
+119.
+:: Get all External Hotels :: (admin and accunt owners)
+endpoint: api.test.hotelsoffline.com/v1/getExternalHotels
+method:POST
+data (Obect)
+	- usertoken - user token (mostly a dmc)
+reponses
+	an object
+
+----------------------------------------------------------------------------
+
+120.
+:: Map Rooms to categories :: (admin, account owners and hotels and DMC)
+endpoint: api.test.hotelsoffline.com/v1/mapExtRoomsToCat
+method:POST
+data (Obect)
+	- roomid - room token
+	- category - room category
+	- contract_token - contract token
+	- hoteltoken - hotel token of hotel on the contract
+reponses
+	an object
+
+-------------------------------------------------------------
+
+121.
+:: Create external source :: (for admin)
+endpoint: api.test.hotelsoffline.com/v1/createSource
+method:POST
+data (Obect)
+	- usertoken - creator's usertoken
+	- token - the recipeints usertoken
+	- source - the source (e.g ezee)
+	- aotoken - account owner token
+
+reponses
+	an object
+
+-------------------------------------------------------------
+
+122.
+:: get external sources :: (Admin)
+endpoint: api.test.hotelsoffline.com/v1/getExtSources
+method:POST
+data (Obect)
+	- usertoken
+	- type - admin or others
+reponses
+	an object
+
+--------------------------------------------------------------------
+
+123.
+:: Get Source Hotels :: (admin, account owners, hotels)
+endpoint: api.test.hotelsoffline.com/v1/getSourceHotels
+method:POST
+data (Obect)
+	- usertoken - user token (mostly a dmc)
+	- sourceid - source id
+	- source - source name
+
+reponses
+	an object
+
+--------------------------------------------------------------------
+
+
+124.
+:: Add hotel owner to an external hotel :: (account owners alone.)
+endpoint: api.test.hotelsoffline.com/v1/addHotelOwner-exHotel
+method:POST
+data (Obect)
+	- usertoken - user token (mostly a dmc)
+	- hoteltoken - hotel token
+	- hotoken - hotel owner token
+
+reponses
+	an object
+
+---------------------------------------------------------------------
+
+125.
+:: Get  external hotels by Source ID :: (admin and account owners.)
+endpoint: api.test.hotelsoffline.com/v1/getExternalHotels-bySource.php
+method:POST
+data (Obect)
+	- usertoken - user token (mostly a dmc)
+	- hoteltoken - hotel token
+	- hotoken - hotel owner token
+
+reponses
+	an object
+
+----------------------------------------------------------------------
+
+126.
+:: get hotel owners
+endpoint: api.test.hotelsoffline.com/v1/list-hotelowner
+method:POST
+data (Obect)
+
+reponses
+	an object
+
+-----------------------------------------------------------------------------
+
+127.
+::Add Hotel by Account Owner::
+endpoint: api.test.hotelsoffline.com/v1/account-owner/addHotel
+method:POST
+data
+	hotelname - ''
+	description - ''
+	image - file (not compulsory)
+	location - ''
+	creator_token - 'the token of the creator'
+	latitude - latitude from Gogle
+	longitude - longitude from google
+	country - country from google
+	city - city from google
+	street - street name
+	star - hotel star level
+	amenities - (array of amenities)
+reponses
+	success - true or false
+	message - ''
+	token - 'hotel unique token'
+
+-----------------------------------------------------------------------------
+
+128.
+:: edit hotel by hotel-owner
+endpoint: api.test.hotelsoffline.com/v1/hotel-chain/editHotel
+method:POST
+data (Obect)
+	- hoteltoken - hotel's token
+	- hotelname - name of hotel
+	- country - country
+	- city - city
+	- longitude - longitude
+	- latitude - latitude
+
+reponses
+	an object
+
+----------------------------------------------------------------------------
+
+129.
+:: update password
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-password
+method:POST
+data (Obect)
+	- currentPassword - user current password
+	- newPassword - user new password
+	- confirmPassword - new confirm password
+	- usertoken - user token
+
+reponses
+	success - true or false
+	message - ''
+
+----------------------------------------------------------------------------
+
+130.
+:: update user profile
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-user-profile
+method:POST
+data (Obect)
+	- usertoken - usertoken (required)
+	- address - address (required)
+	- phone - phone (required)
+	- fname - full name (required)
+	- lname - last name (required)
+	- country - country
+	- city - city
+	- state - state
+	- zip_code - zip_code
+	- proof_of_id - proof_of_id(BLOB)
+	- company_reg_cert - company_reg_cert(BLOB)
+	- proof_of_address - proof_of_address(BLOB)
+
+reponses
+	success - true or false
+	message - ''
+
+---------------------------------------------------------------------
+
+
+131.
+:: create dynamic contract
+endpoint: api.test.hotelsoffline.com/v1/dmc/createDynamicContract
+method:POST
+data (Obect)
+	- usertoken - usertoken (required)
+	- hotelcode - hotel code from the channel (required)
+	- hoteltoken - hotel token (required)
+	- dmctoken - full name (required)
+	- channel - source (e.g, ezee, darina) (required)
+reponses
+	success - true or false
+	message - ''
+
+-----------------------------------------------------------------------
+
+132.
+:: Link Users with Payoneer
+endpoint: api.test.hotelsoffline.com/v1/payoneer/linkUserToPayoneer
+method:POST
+data (Obect)
+	- usertoken - usertoken (required)
+reponses
+	success - true or false
+	message - ''
+	payoneerData - this will be an object containing a registration link. The front-end should allow the user follow this link in a new tab to complete the registration on payoneer's system.
+
+
+------------------------------------------------------------------------
+
+133.
+:: Pay withdrawals through Payoneer
+endpoint: api.test.hotelsoffline.com/v1/payoneer/pay
+method:POST
+data (Obect)
+	- usertoken - usertoken (required)
+	- amount - amount to be sent
+	- currency - currency ticker
+	- wid - withdrawal ID
+reponses
+	success - true or false
+	message - ''
+	payoneerData - this will be an object containing a registration link. The front-end should allow the user follow this link in a new tab to complete the registration on payoneer's system.
+
+
+-------------------------------------------------------------------------
+
+
+134.
+:: get Contract Data
+endpoint: api.test.hotelsoffline.com/v1/getContractData
+method:POST
+data (Obect)
+	- contract_token - contract token
+reponses
+	
+----------------------------------------------------------------
+
+135.
+:: get external Contract rooms
+endpoint: api.test.hotelsoffline.com/v1/getExternalContractRooms
+method:POST
+data (Obect)
+	- contract_token - contract token
+	-hoteltoken - hotel token
+reponses
+
+----------------------------------------------------------------
+
+136.
+:: get specific hotel room categories
+endpoint: api.test.hotelsoffline.com/v1/getHotelRoomCategory
+method:POST
+data (Obect)
+	- hoteltoken - hotel token
+reponses
+
+---------------------------------------------------------------
+
+137.
+:: check if an external contract is fully mapped
+endpoint: api.test.hotelsoffline.com/v1/checkIfContractMapped
+method:POST
+data (Obect)
+	- contract_token - contract token
+reponses
+
+----------------------------------------------------------------
+
+138.
+:: get hotel data
+endpoint: api.test.hotelsoffline.com/v1/getHotelData
+method:POST
+data (Obect)
+	- hoteltoken - hotel token
+reponses
+
+-----------------------------------------------------------------
+
+139.
+:: get external hotel data
+endpoint: api.test.hotelsoffline.com/v1/getExternalHotelData
+method:POST
+data (Obect)
+	- hotelcode - external hotel code
+	- source - this information should be on the availability
+reponses
+
+
+-----------------------------------------------------------------
+
+140.
+:: get all users
+endpoint: api.test.hotelsoffline.com/v1/getAllUsers
+method:POST
+data (Obect)
+	- usertoken - user's token
+reponses
+
+
+-----------------------------------------------------------------
+
+141.
+:: add user's stripe token
+endpoint: api.test.hotelsoffline.com/v1/yayo/add-stripe-id
+method:POST
+data (Obect)
+	- stripe_id - user's stripe account id
+	- usertoken - user id
+	
+
+reponses
+	success - true or false
+	message - ''
+
+-----------------------------------------------------------------
+
+142.
+:: Get user's detail
+endpoint: api.test.hotelsoffline.com/v1/yayo/user-profile
+data (Obect)
+	- usertoken - user id	
+
+reponses
+	success - true or false
+	message - ''
+
+-----------------------------------------------------------------
+
+143.
+:: Approve user
+endpoint: api.test.hotelsoffline.com/v1/yayo/approve-user
+data (Obect)
+	- usertoken - user id
+	- admin - admin id
+
+reponses
+	success - true or false
+	message - ''
+
+-----------------------------------------------------------------
+
+144.
+:: Cancellation Policy
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-cancellation-policy
+data (Obect)
+	- contractToken - contract id
+	- policy_content - content of the policy
+
+reponses
+	success - true or false
+	message - ''
+
+
+-----------------------------------------------------------------
+
+145.
+:: List All Contracts For A Hotel
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts
+data (Obect)
+	- hoteltoken - hotel id
+
+reponses
+	success - true or false
+	message - ''
+	array
+
+-----------------------------------------------------------------
+
+146.
+:: Delete Hotel Room
+endpoint: api.test.hotelsoffline.com/v1/yayo/delete-hotel-room
+data (Obect)
+	- roomId - room id
+
+reponses
+	success - true or false
+	message - ''
+
+
+-----------------------------------------------------------------
+
+147.
+:: Create Contract Distribution
+endpoint: api.test.hotelsoffline.com/v1/yayo/create-contract-distribution
+data (Obect)
+	- contractToken - contract id
+	- country - name of country
+
+reponses
+	success - true or false
+	message - ''
+
+-----------------------------------------------------------------
+
+148.
+:: Edit Initiated Contract
+endpoint: api.test.hotelsoffline.com/v1/yayo/edit-init-contract
+data (Obect)
+	- contractToken - contract id
+	- contract_name - contract name
+	- child_age_From - 
+	- child_age_To - 
+	- status
+
+reponses
+	success - true or false
+	message - ''
+ 
+-----------------------------------------------------------------
+
+149.
+:: Edit Hotel Room
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-room
+data (Obect)
+	- hoteltoken
+	- roomtoken
+	- name - room name
+	- avail_room_num
+	- room_desc
+	- dbl - sgl
+	- trpl
+	- quad
+	- category
+	- room_size
+	- max_child
+	- min_adult
+	- max_adult
+	- max_total
+	- bed_number
+
+reponses
+	success - true or false
+	message - ''
+
+-----------------------------------------------------------------
+
+150.
+:: List Contract Distribution
+endpoint: api.test.hotelsoffline.com/v1/yayo/list-contract-distribution
+data (Obect)
+	token - contract token
+reponses
+	success - true or false		
+	message - ''
+	array of object
+ 
+----------------------------------------------------------------- 
+
+151.
+:: List All Currency
+endpoint: api.test.hotelsoffline.com/v1/yayo/getAllCurrencies
+data
+
+reponses
+	success - true or false		
+	message - ''
+	array of object
+ 
+----------------------------------------------------------------- 
+
+152.
+:: Update Default Currency
+endpoint: api.test.hotelsoffline.com/v1/yayo/update-my-currency
+data
+	- usertoken - contract id
+	- currency - currency
+
+reponses
+	success - true or false		
+	message - ''
+	array of object
+ 
+----------------------------------------------------------------- 
+
+
+153.
+:: Get Wallet History 2
+endpoint: api.test.hotelsoffline.com/v1/getWalletHistory
+data (Object)
+	- usertoken - user's token
+reponses
+	success - true or false		
+	message - ''
+	array of object
+ 
+----------------------------------------------------------------- 
+
+154.
+:: Link user to stripe
+endpoint: api.test.hotelsoffline.com/v1/stripe/linkUserToStripe
+data (Object)
+	- usertoken - user's token
+reponses
+	success - true or false		
+	message - ''
+	array of object
+ 
+----------------------------------------------------------------- 
+
+
+155.
+:: Remove distribution
+endpoint: api.test.hotelsoffline.com/v1/removeDistribution
+data (Object)
+	- usertoken - user's token
+	- did - distribution id
+reponses
+	array of object
+ 
+----------------------------------------------------------------- 
+
+156.
+:: Admin List Hotels
+endpoint: api.test.hotelsoffline.com/v1/admin/listHotels
+data (Object)
+reponses
+	array of object
+ 
+----------------------------------------------------------------- 
+
+
+157.
+:: Admin get booking history
+endpoint: api.test.hotelsoffline.com/v1/admin/listHotels
+data (Object)
+reponses
+	array of object
+ 
+----------------------------------------------------------------- 
+
+
+158.
+:: Admin get Account Owner
+endpoint: api.test.hotelsoffline.com/v1/admin/getAccountOwners
+data (Object)
+	accountOwnerToken - account owner user token (optional)
+	usertoken - admin user token
+reponses
+	array of object
+ 
+----------------------------------------------------------------- 
+
+158.
+:: Admin get DMC
+endpoint: api.test.hotelsoffline.com/v1/admin/getDMCs
+data (Object)
+	dmcToken - DMC user token (optional)
+	usertoken - admin user token
+reponses
+	array of object
+ 
+----------------------------------------------------------------- 

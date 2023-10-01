@@ -1,0 +1,848 @@
+[23-Dec-2022 22:23:51 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 18
+[23-Dec-2022 22:23:51 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 19
+[23-Dec-2022 22:23:55 UTC] PHP Notice:  Undefined variable: contract_token in /home/servhub/api.test.hotelsoffline.com/functions.php on line 6147
+[24-Dec-2022 06:07:44 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 06:07:44 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 06:07:44 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 06:07:44 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 06:22:03 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 06:22:03 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 06:22:03 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 06:22:03 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 06:23:18 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 06:23:19 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 06:23:19 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 06:23:19 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 06:23:19 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 06:23:19 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 06:23:20 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 06:23:20 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 06:26:08 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[24-Dec-2022 06:26:08 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[24-Dec-2022 06:26:08 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[24-Dec-2022 06:26:08 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[24-Dec-2022 06:26:08 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[24-Dec-2022 06:26:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[24-Dec-2022 08:29:51 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:29:51 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:29:51 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:29:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:29:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:29:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:29:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:29:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:30:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:30:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:30:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:30:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:30:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:30:30 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:30:30 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 08:30:30 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 09:48:00 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 09:48:00 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 09:48:00 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 09:48:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 09:48:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 09:48:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 09:48:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 09:48:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 10:45:09 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 10:45:09 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 10:45:09 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[24-Dec-2022 10:45:25 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 10:45:25 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 10:45:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[24-Dec-2022 10:47:33 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 10:47:33 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 10:47:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[24-Dec-2022 10:48:47 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 10:48:47 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 10:48:47 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[24-Dec-2022 10:48:51 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 10:48:51 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 10:48:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[24-Dec-2022 10:48:56 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 10:48:56 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 10:48:56 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[24-Dec-2022 11:30:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 11:30:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 11:30:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 11:30:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 11:30:35 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 11:30:35 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 11:30:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 11:30:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:10:49 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:10:49 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:10:49 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:10:50 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:10:50 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:10:51 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:10:51 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:10:51 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:15:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:15:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:15:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:15:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:15:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:15:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:15:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:15:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:16:11 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 12:16:11 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 12:16:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[24-Dec-2022 12:26:15 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:26:15 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:26:16 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:26:16 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:26:16 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:26:16 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:26:16 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:26:16 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:47:23 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 12:47:23 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 12:47:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[24-Dec-2022 12:47:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:47:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:47:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:47:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:47:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:47:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:47:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 12:47:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:13:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:13:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:13:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:13:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:13:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:13:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:13:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:13:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:29:03 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:29:03 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:29:04 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:29:04 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:29:04 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:29:04 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:29:04 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 13:29:04 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 14:05:45 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 14:05:45 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 14:05:45 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 14:05:45 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 14:05:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 14:05:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 14:05:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 14:05:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:08:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:08:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:08:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:08:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:08:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:08:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:08:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:08:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:16:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:16:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:16:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:16:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:16:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:16:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:16:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:16:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:50:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:50:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:50:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:50:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:50:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:50:49 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:50:49 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:50:49 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:57:53 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:57:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:57:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:57:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:57:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:57:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:57:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 15:57:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:00:37 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:00:37 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:00:38 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:00:38 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:00:38 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:00:38 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:00:38 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:00:38 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:15:17 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:15:17 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:15:17 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:15:17 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:15:18 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:15:18 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:15:18 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:15:18 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:40:14 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:40:14 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:40:14 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:40:15 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:40:15 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:40:15 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:40:15 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:40:16 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:45:26 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:45:26 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:45:26 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:45:26 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:45:26 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:45:27 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:45:27 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:45:27 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:47:05 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:47:05 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:47:05 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:47:05 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:47:06 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:47:06 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:47:06 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 16:47:06 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:02:40 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:02:40 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:02:40 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:02:40 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:02:41 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:02:41 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:02:41 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:02:41 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:06:28 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 17:06:28 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 17:06:47 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[24-Dec-2022 17:06:47 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[24-Dec-2022 17:07:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:32 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:33 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:56 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 17:07:56 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 18:11:37 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 18:11:38 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 18:22:04 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 18:22:05 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:05:15 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:05:16 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:00 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:00 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:27:30 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:31:37 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:31:37 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 19:34:36 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 19:34:36 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 19:34:36 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 19:34:36 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[24-Dec-2022 21:00:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[24-Dec-2022 21:00:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[25-Dec-2022 04:01:45 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[25-Dec-2022 04:01:45 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[25-Dec-2022 04:01:45 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[25-Dec-2022 04:01:45 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[25-Dec-2022 09:50:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[25-Dec-2022 09:50:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[25-Dec-2022 09:50:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[25-Dec-2022 09:50:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[25-Dec-2022 11:20:02 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[25-Dec-2022 11:20:02 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[25-Dec-2022 11:20:02 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 05:44:06 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[26-Dec-2022 05:44:06 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[26-Dec-2022 05:44:06 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[26-Dec-2022 05:44:06 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[26-Dec-2022 07:14:51 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[26-Dec-2022 07:40:10 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 07:40:10 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 07:40:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 07:40:51 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 07:40:51 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 07:40:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 07:41:02 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 07:41:02 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 07:41:02 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 07:41:03 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 07:41:03 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 07:41:03 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 07:49:41 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 07:49:41 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 07:49:41 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 20:04:23 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 20:04:23 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 20:04:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 20:05:37 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 20:05:37 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 20:05:37 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 20:05:40 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 20:05:40 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 20:05:40 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[26-Dec-2022 20:09:50 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[26-Dec-2022 20:09:50 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[26-Dec-2022 20:09:50 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[27-Dec-2022 06:08:53 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:08:53 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:08:53 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:08:53 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:08:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:08:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:08:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:08:54 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:10:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:10:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:10:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:10:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:10:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:10:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:10:58 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:10:58 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:12 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:12 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:12 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:12 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:12 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:13 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:13 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:13 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:35 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:35 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:11:35 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 06:13:33 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[27-Dec-2022 06:13:33 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[27-Dec-2022 06:13:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[27-Dec-2022 10:33:40 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[27-Dec-2022 10:33:40 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[27-Dec-2022 10:33:40 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[27-Dec-2022 10:35:14 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[27-Dec-2022 10:35:14 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[27-Dec-2022 10:35:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[27-Dec-2022 10:35:49 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[27-Dec-2022 10:35:49 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[27-Dec-2022 10:35:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[27-Dec-2022 11:33:44 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[27-Dec-2022 11:33:44 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[27-Dec-2022 11:33:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[27-Dec-2022 11:34:05 UTC] PHP Notice:  Trying to get property 'usertoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/update-my-currency.php on line 18
+[27-Dec-2022 11:34:05 UTC] PHP Notice:  Trying to get property 'currency' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/update-my-currency.php on line 19
+[27-Dec-2022 11:34:24 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[27-Dec-2022 11:34:24 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[27-Dec-2022 11:45:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 11:45:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 11:45:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 11:45:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 11:45:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 11:45:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 11:45:57 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 11:45:58 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 11:49:59 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[27-Dec-2022 11:49:59 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[27-Dec-2022 11:49:59 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[27-Dec-2022 11:49:59 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[27-Dec-2022 11:53:48 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[27-Dec-2022 11:53:48 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[27-Dec-2022 11:53:48 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[27-Dec-2022 11:53:48 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[27-Dec-2022 22:03:49 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[27-Dec-2022 22:03:49 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[28-Dec-2022 06:30:12 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 06:30:12 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 06:30:12 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 06:30:12 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 06:30:20 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 06:30:20 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 06:30:20 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 06:30:20 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 06:30:40 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 06:30:40 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 07:08:03 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 07:08:03 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 07:09:03 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 07:09:03 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 07:09:04 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, object given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[28-Dec-2022 07:09:04 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[28-Dec-2022 07:09:11 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, object given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[28-Dec-2022 07:09:11 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[28-Dec-2022 07:09:12 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 07:09:12 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 07:09:40 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, object given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[28-Dec-2022 07:09:40 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[28-Dec-2022 07:09:41 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 07:09:41 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 07:33:33 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 07:33:33 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 07:33:33 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 07:33:33 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 07:33:54 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 07:33:54 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 07:34:21 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 07:34:21 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 07:34:22 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 07:34:22 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 07:47:41 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 07:47:41 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 07:47:41 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 07:47:41 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 10:26:09 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[28-Dec-2022 10:26:09 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[28-Dec-2022 10:26:09 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[28-Dec-2022 11:55:08 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 11:55:08 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 11:55:08 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 11:55:08 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 14:20:37 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 14:20:37 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 14:20:37 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 14:20:37 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 15:48:52 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 15:48:52 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 15:48:52 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[28-Dec-2022 15:48:52 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 06:29:06 UTC] PHP Notice:  Undefined index: max_total in /home/servhub/api.test.hotelsoffline.com/v1/yayo/update-room.php on line 36
+[29-Dec-2022 06:29:06 UTC] PHP Notice:  Undefined index: room_image in /home/servhub/api.test.hotelsoffline.com/v1/yayo/update-room.php on line 67
+[29-Dec-2022 13:45:02 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 13:45:02 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 13:45:02 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:01:32 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:01:32 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:01:32 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:22:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:22:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:22:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:22:42 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:22:42 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:22:42 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:52:16 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:52:16 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[29-Dec-2022 14:52:16 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[30-Dec-2022 11:03:16 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[30-Dec-2022 11:03:16 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[30-Dec-2022 11:03:16 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[30-Dec-2022 11:03:51 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 11:03:51 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 11:03:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 11:03:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 11:03:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 11:03:52 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 11:03:53 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 11:03:53 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 11:04:42 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[30-Dec-2022 11:04:42 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[30-Dec-2022 11:04:42 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[30-Dec-2022 11:04:42 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[30-Dec-2022 11:04:42 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[30-Dec-2022 11:04:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[30-Dec-2022 11:06:31 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 11:06:31 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 11:06:32 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 11:07:06 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 11:07:06 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 11:07:07 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 11:07:17 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 11:07:21 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 11:07:21 UTC] PHP Notice:  Undefined index: inventory_room in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 42
+[30-Dec-2022 13:43:57 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[30-Dec-2022 13:43:57 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[30-Dec-2022 13:43:57 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[30-Dec-2022 13:45:28 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[30-Dec-2022 13:45:28 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[30-Dec-2022 13:45:28 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[30-Dec-2022 13:56:51 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[30-Dec-2022 13:56:51 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[30-Dec-2022 13:56:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[30-Dec-2022 14:14:36 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 18
+[30-Dec-2022 14:14:36 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 19
+[30-Dec-2022 14:14:41 UTC] PHP Notice:  Undefined variable: contract_token in /home/servhub/api.test.hotelsoffline.com/functions.php on line 6147
+[30-Dec-2022 14:14:57 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 18
+[30-Dec-2022 14:14:57 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 19
+[30-Dec-2022 14:15:01 UTC] PHP Notice:  Undefined variable: contract_token in /home/servhub/api.test.hotelsoffline.com/functions.php on line 6147
+[30-Dec-2022 14:16:22 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 18
+[30-Dec-2022 14:16:22 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 19
+[30-Dec-2022 14:16:25 UTC] PHP Notice:  Undefined variable: contract_token in /home/servhub/api.test.hotelsoffline.com/functions.php on line 6147
+[30-Dec-2022 16:05:58 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:05:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:05:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:05:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:05:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:06:00 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:06:00 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:06:00 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:11:03 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:11:04 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[30-Dec-2022 16:18:25 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[30-Dec-2022 16:18:25 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[30-Dec-2022 16:18:25 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[30-Dec-2022 16:18:25 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[30-Dec-2022 16:18:25 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[30-Dec-2022 16:22:48 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[30-Dec-2022 16:22:48 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[30-Dec-2022 16:22:48 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[30-Dec-2022 16:24:15 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[30-Dec-2022 16:24:15 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[01-Jan-2023 14:46:22 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[01-Jan-2023 14:46:22 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[01-Jan-2023 14:47:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[01-Jan-2023 14:47:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[01-Jan-2023 14:47:00 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 06:09:21 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 06:09:21 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 06:09:21 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 14:39:56 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 14:39:56 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 14:39:56 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 14:57:12 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 14:57:12 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 14:57:12 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[02-Jan-2023 14:57:50 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[02-Jan-2023 14:57:50 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[02-Jan-2023 15:03:24 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[02-Jan-2023 15:03:24 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[02-Jan-2023 15:03:24 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[04-Jan-2023 07:33:35 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[04-Jan-2023 07:33:35 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[04-Jan-2023 07:49:19 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[04-Jan-2023 07:51:59 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[04-Jan-2023 07:51:59 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[04-Jan-2023 07:57:03 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[04-Jan-2023 08:21:59 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[04-Jan-2023 08:21:59 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[04-Jan-2023 08:21:59 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[04-Jan-2023 08:26:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:26:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:26:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:26:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:26:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:26:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:26:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:26:48 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:43:58 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:43:58 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:43:58 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:43:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:43:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:43:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:43:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:43:59 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:06 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:06 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:06 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:07 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:07 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:07 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:07 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:07 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 08:52:47 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 09:25:45 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 09:25:45 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 09:25:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 09:25:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 09:25:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 09:25:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 09:25:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 09:25:46 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[04-Jan-2023 17:20:28 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[04-Jan-2023 17:20:28 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[04-Jan-2023 17:20:28 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[04-Jan-2023 17:20:46 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[04-Jan-2023 17:20:46 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[04-Jan-2023 17:20:46 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[04-Jan-2023 17:21:11 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[04-Jan-2023 17:21:11 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[04-Jan-2023 17:21:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[05-Jan-2023 16:00:54 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[05-Jan-2023 16:00:54 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[05-Jan-2023 16:00:54 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[05-Jan-2023 17:10:37 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[05-Jan-2023 17:10:37 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[05-Jan-2023 17:10:37 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[05-Jan-2023 17:11:03 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[05-Jan-2023 17:11:03 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[05-Jan-2023 17:11:03 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[05-Jan-2023 17:11:44 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[05-Jan-2023 17:11:44 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[05-Jan-2023 17:11:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[05-Jan-2023 17:23:11 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[05-Jan-2023 17:23:11 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[05-Jan-2023 17:23:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[06-Jan-2023 07:22:47 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[06-Jan-2023 07:22:47 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[07-Jan-2023 08:28:11 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[07-Jan-2023 08:28:11 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[07-Jan-2023 08:34:22 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[07-Jan-2023 08:34:22 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[07-Jan-2023 08:34:22 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[07-Jan-2023 08:34:22 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[07-Jan-2023 08:34:22 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[07-Jan-2023 08:34:23 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[07-Jan-2023 08:34:23 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[07-Jan-2023 08:34:23 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:28:41 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[08-Jan-2023 16:28:41 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[08-Jan-2023 16:28:41 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[08-Jan-2023 16:29:23 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:29:23 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:29:23 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:29:24 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:29:24 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:29:24 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:29:24 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:29:25 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[08-Jan-2023 16:29:39 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[08-Jan-2023 16:29:39 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[08-Jan-2023 16:29:45 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[08-Jan-2023 16:29:45 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[08-Jan-2023 16:29:48 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[08-Jan-2023 16:29:48 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[08-Jan-2023 16:31:07 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[08-Jan-2023 16:31:07 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[08-Jan-2023 16:34:21 UTC] PHP Notice:  Trying to get property 'usertoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/update-my-currency.php on line 18
+[08-Jan-2023 16:34:21 UTC] PHP Notice:  Trying to get property 'currency' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/update-my-currency.php on line 19
+[08-Jan-2023 16:34:37 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[08-Jan-2023 16:34:37 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[08-Jan-2023 18:01:14 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[08-Jan-2023 18:01:14 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[09-Jan-2023 06:48:06 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[09-Jan-2023 06:48:06 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[09-Jan-2023 06:48:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 64
+[09-Jan-2023 06:48:49 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[09-Jan-2023 06:48:49 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[09-Jan-2023 06:49:21 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[09-Jan-2023 09:38:21 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[09-Jan-2023 09:38:21 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[09-Jan-2023 10:33:59 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[09-Jan-2023 10:33:59 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[09-Jan-2023 10:47:52 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[09-Jan-2023 10:47:53 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[09-Jan-2023 10:47:53 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[09-Jan-2023 10:47:53 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[09-Jan-2023 10:47:53 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[09-Jan-2023 10:47:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[10-Jan-2023 03:50:13 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[10-Jan-2023 03:50:13 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[10-Jan-2023 03:50:13 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[10-Jan-2023 03:50:13 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[10-Jan-2023 03:50:14 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[10-Jan-2023 03:50:14 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[10-Jan-2023 03:50:14 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[10-Jan-2023 03:50:14 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[13-Jan-2023 04:24:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[13-Jan-2023 04:24:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[13-Jan-2023 04:24:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[13-Jan-2023 04:24:34 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[13-Jan-2023 04:24:35 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[13-Jan-2023 04:24:35 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[13-Jan-2023 04:24:35 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[13-Jan-2023 04:24:36 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:01 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:02 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:03 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:03 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:03 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[16-Jan-2023 18:41:31 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[16-Jan-2023 18:41:31 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[16-Jan-2023 18:42:04 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[16-Jan-2023 18:42:04 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[17-Jan-2023 17:49:52 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[17-Jan-2023 17:49:52 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[17-Jan-2023 18:28:09 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[17-Jan-2023 18:28:09 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[17-Jan-2023 18:28:09 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[17-Jan-2023 18:28:09 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[17-Jan-2023 18:28:09 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[17-Jan-2023 18:28:19 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[17-Jan-2023 18:28:21 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[17-Jan-2023 18:28:21 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[17-Jan-2023 18:28:21 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[17-Jan-2023 18:28:21 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[17-Jan-2023 18:28:21 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[17-Jan-2023 18:28:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[17-Jan-2023 18:28:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[17-Jan-2023 18:28:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[17-Jan-2023 18:30:20 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[17-Jan-2023 18:30:20 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[17-Jan-2023 18:46:38 UTC] PHP Notice:  Undefined variable: business_name in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 177
+[17-Jan-2023 18:46:38 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/servhub/api.test.hotelsoffline.com/functions2.php:1432
+Stack trace:
+#0 /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php(192): updateParentContract(Object(db), Object(mysqli), '16590', 1675900800)
+#1 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/functions2.php on line 1432
+[18-Jan-2023 21:38:17 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[18-Jan-2023 21:38:17 UTC] PHP Notice:  Undefined index: company in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-three.php on line 104
+[22-Jan-2023 15:43:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[22-Jan-2023 15:43:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[22-Jan-2023 15:43:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[22-Jan-2023 15:43:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[22-Jan-2023 15:43:28 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[22-Jan-2023 15:43:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[22-Jan-2023 15:43:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[22-Jan-2023 15:43:29 UTC] PHP Notice:  Trying to get property 'hoteltoken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-hotel-contracts.php on line 18
+[22-Jan-2023 15:58:05 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[22-Jan-2023 15:58:05 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[22-Jan-2023 15:58:36 UTC] PHP Notice:  Undefined index: stripe_id in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 62
+[22-Jan-2023 15:58:36 UTC] PHP Notice:  Undefined index: is_approved in /home/servhub/api.test.hotelsoffline.com/v1/yayo/user-profile.php on line 63
+[22-Jan-2023 16:03:15 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[22-Jan-2023 16:03:15 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[22-Jan-2023 16:03:15 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[22-Jan-2023 16:03:15 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[22-Jan-2023 16:03:15 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[22-Jan-2023 16:03:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[22-Jan-2023 16:16:46 UTC] PHP Notice:  Undefined index: supp_child in /home/servhub/api.test.hotelsoffline.com/v1/yayo/supplement-plan-create.php on line 42
+[22-Jan-2023 16:16:46 UTC] PHP Notice:  Undefined index: supp_perc in /home/servhub/api.test.hotelsoffline.com/v1/yayo/supplement-plan-create.php on line 54
+[22-Jan-2023 16:17:53 UTC] PHP Notice:  Undefined variable: businessName in /home/servhub/api.test.hotelsoffline.com/v1/yayo/cancel-plan-update.php on line 50
+[22-Jan-2023 16:17:53 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/v1/yayo/cancel-plan-update.php on line 50
+[22-Jan-2023 16:18:10 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 18
+[22-Jan-2023 16:18:10 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/create-contract-distribution.php on line 19
+[22-Jan-2023 16:18:12 UTC] PHP Notice:  Undefined variable: contract_token in /home/servhub/api.test.hotelsoffline.com/functions.php on line 6180
+[22-Jan-2023 16:21:03 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[22-Jan-2023 16:21:03 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[22-Jan-2023 16:21:03 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[22-Jan-2023 16:21:03 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[22-Jan-2023 16:21:03 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[22-Jan-2023 16:21:03 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[22-Jan-2023 16:21:03 UTC] PHP Notice:  Undefined index: availability_calender_only in /home/servhub/api.test.hotelsoffline.com/v1/yayo/list-contract-country.php on line 113
+[22-Jan-2023 16:29:03 UTC] PHP Notice:  Undefined index: max_total in /home/servhub/api.test.hotelsoffline.com/v1/yayo/update-room.php on line 36
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:17:25 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:17:59 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:18:00 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:18:01 UTC] PHP Notice:  Trying to get property 'contractToken' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 18
+[23-Jan-2023 19:18:01 UTC] PHP Notice:  Trying to get property 'contract_name' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 19
+[23-Jan-2023 19:18:01 UTC] PHP Notice:  Trying to get property 'child_age_From' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 20
+[23-Jan-2023 19:18:01 UTC] PHP Notice:  Trying to get property 'child_age_To' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 21
+[23-Jan-2023 19:18:01 UTC] PHP Notice:  Trying to get property 'status' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 22
+[23-Jan-2023 19:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[23-Jan-2023 19:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[23-Jan-2023 19:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[23-Jan-2023 19:18:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[23-Jan-2023 19:18:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[23-Jan-2023 19:18:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function editInitiatedContract() in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/v1/yayo/edit-init-contract.php on line 50
+[23-Jan-2023 19:18:47 UTC] PHP Notice:  Undefined variable: business_name in /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php on line 177
+[23-Jan-2023 19:18:47 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/servhub/api.test.hotelsoffline.com/functions2.php:1432
+Stack trace:
+#0 /home/servhub/api.test.hotelsoffline.com/v1/yayo/date-plan-update.php(192): updateParentContract(Object(db), Object(mysqli), '16595', 1674518400)
+#1 {main}
+  thrown in /home/servhub/api.test.hotelsoffline.com/functions2.php on line 1432

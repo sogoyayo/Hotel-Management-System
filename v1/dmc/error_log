@@ -1,0 +1,325 @@
+[23-Sep-2022 05:46:57 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[23-Sep-2022 05:46:57 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[23-Sep-2022 05:46:57 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[23-Sep-2022 05:52:26 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[23-Sep-2022 05:52:26 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[23-Sep-2022 05:52:26 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[23-Sep-2022 06:10:34 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[23-Sep-2022 06:10:34 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[23-Sep-2022 06:10:34 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[24-Sep-2022 05:49:24 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[24-Sep-2022 05:49:24 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[24-Sep-2022 05:49:24 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[24-Sep-2022 14:53:46 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[24-Sep-2022 14:53:46 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[24-Sep-2022 14:53:46 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Sep-2022 22:18:23 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Sep-2022 22:18:23 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Sep-2022 22:18:23 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Sep-2022 22:19:59 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Sep-2022 22:19:59 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Sep-2022 22:19:59 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[28-Sep-2022 05:28:12 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[28-Sep-2022 05:28:12 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[28-Sep-2022 05:28:12 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[01-Oct-2022 16:48:23 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[01-Oct-2022 16:48:23 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[01-Oct-2022 16:48:23 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[05-Oct-2022 22:59:19 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[05-Oct-2022 22:59:19 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[05-Oct-2022 22:59:19 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[07-Oct-2022 14:08:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/servhub/api.test.hotelsoffline.com/functions.php on line 427
+[07-Oct-2022 14:08:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/servhub/api.test.hotelsoffline.com/functions.php on line 427
+[07-Oct-2022 18:14:33 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:15:03 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:18:32 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:18:32 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:20:29 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:20:29 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:20:30 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:20:38 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:20:38 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:20:46 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:20:46 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:22:31 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:23:12 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:23:35 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:23:35 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:23:35 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:25:46 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:27:05 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:27:05 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:27:05 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:33:33 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:33:33 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:35:37 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:35:37 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:35:39 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 18:35:39 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 20:10:15 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 20:12:38 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 20:12:43 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 20:12:43 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 20:18:20 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 20:28:32 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 20:28:32 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 20:43:20 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 21:43:37 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 21:43:38 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 21:43:38 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 21:44:02 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 21:44:02 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:10:25 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:11:04 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:11:04 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:11:23 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:11:23 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:19:07 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:19:08 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:25:02 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:25:02 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:25:02 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:25:37 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:25:37 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[07-Oct-2022 22:25:38 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 03:51:34 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 03:52:40 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 05:48:17 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 05:48:17 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:10:21 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:10:21 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:10:22 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:12:45 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:12:45 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:13:43 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:13:44 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:13:44 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:17:45 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:17:45 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:23:17 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:23:17 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:41:28 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:47:24 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:47:24 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:47:59 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 06:48:00 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:00:23 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:00:23 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:00:23 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:00:44 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:00:45 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:05:35 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:07:59 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:07:59 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:08:00 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:08:00 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:32:17 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:32:18 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:32:18 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:39:15 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:39:16 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:40:36 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:41:35 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:41:52 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:41:52 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:41:53 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 07:42:17 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 12:02:17 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 12:02:17 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:17:51 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:17:51 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:18:49 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:18:49 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:20:58 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:20:58 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:20:58 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:22:56 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:22:56 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:26:44 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:26:44 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:26:44 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:26:44 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:57:12 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:57:12 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 13:57:13 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 15:04:04 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 15:04:04 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 20:12:10 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 20:12:11 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 20:12:31 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 20:12:31 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:12:31 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:12:31 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:25 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:25 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:25 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:38 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 20:16:38 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:38 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:38 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:49 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 20:16:49 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 20:16:49 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:49 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 20:16:49 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:01:20 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:01:21 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:01:24 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:02:59 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:04:13 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:04:31 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:05:06 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:05:32 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:05:32 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:05:32 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:05:32 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:08:34 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:08:34 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:08:34 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:08:34 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:08:34 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:10:48 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:10:48 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:11:30 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:11:30 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:11:55 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:11:55 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:11:55 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:14:24 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:17:15 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:17:15 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[08-Oct-2022 22:17:15 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:17:15 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Oct-2022 22:17:15 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 04:55:54 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 04:55:57 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 04:57:28 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:07:28 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:07:28 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:08:58 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:10:37 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 06:10:37 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 06:10:37 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 06:10:57 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:10:57 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:10:58 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:11:32 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:11:32 UTC] PHP Notice:  Undefined index: roomtypeunkid in /home/servhub/api.test.hotelsoffline.com/engine.php on line 225
+[09-Oct-2022 06:23:18 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 06:23:18 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 06:23:18 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:01:44 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:01:44 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:01:44 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:23:14 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:23:14 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:23:14 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:23:43 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:23:43 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:23:43 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:59:29 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:59:29 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:59:29 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:59:52 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:59:52 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 09:59:52 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:00:16 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:00:16 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:00:16 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:02:19 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:02:19 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:02:19 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:02:33 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:02:33 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 10:02:33 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 21:08:59 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 21:08:59 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Oct-2022 21:08:59 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[10-Oct-2022 21:35:21 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5048
+[10-Oct-2022 21:35:21 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5048
+[10-Oct-2022 21:36:34 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5048
+[10-Oct-2022 21:36:34 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5048
+[10-Oct-2022 21:37:35 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/servhub/api.test.hotelsoffline.com/engine.php on line 153
+[10-Oct-2022 21:37:35 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/servhub/api.test.hotelsoffline.com/engine.php on line 153
+[10-Oct-2022 21:38:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/servhub/api.test.hotelsoffline.com/engine.php on line 276
+[10-Oct-2022 21:38:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/servhub/api.test.hotelsoffline.com/engine.php on line 276
+[10-Oct-2022 21:39:20 UTC] PHP Notice:  Undefined index: token in /home/servhub/api.test.hotelsoffline.com/engine.php on line 262
+[10-Oct-2022 21:39:20 UTC] PHP Notice:  Undefined index: token in /home/servhub/api.test.hotelsoffline.com/engine.php on line 262
+[10-Oct-2022 21:39:22 UTC] PHP Notice:  Undefined index: token in /home/servhub/api.test.hotelsoffline.com/engine.php on line 262
+[10-Oct-2022 21:39:22 UTC] PHP Notice:  Undefined index: token in /home/servhub/api.test.hotelsoffline.com/engine.php on line 262
+[10-Oct-2022 21:42:31 UTC] PHP Notice:  Undefined variable: payload in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5089
+[10-Oct-2022 21:42:36 UTC] PHP Notice:  Undefined variable: payload in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5089
+[11-Oct-2022 02:22:35 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4822
+[11-Oct-2022 02:22:35 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4822
+[11-Oct-2022 02:22:36 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4822
+[11-Oct-2022 02:22:36 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4822
+[20-Oct-2022 04:38:32 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[20-Oct-2022 04:38:32 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[20-Oct-2022 04:38:32 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[20-Oct-2022 04:50:57 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[20-Oct-2022 04:50:57 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[20-Oct-2022 04:50:57 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[21-Oct-2022 13:49:43 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[21-Oct-2022 13:49:43 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[21-Oct-2022 13:49:43 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[21-Oct-2022 13:50:38 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[21-Oct-2022 13:50:38 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[21-Oct-2022 13:50:38 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[22-Oct-2022 15:14:53 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[22-Oct-2022 15:14:53 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[22-Oct-2022 15:14:53 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Oct-2022 23:56:30 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Oct-2022 23:56:30 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[26-Oct-2022 23:56:30 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[29-Oct-2022 15:37:11 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[29-Oct-2022 15:37:11 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[29-Oct-2022 15:37:11 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 05:43:21 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 05:43:21 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 05:43:21 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:24:28 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:24:28 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:24:28 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:29:52 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:29:52 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:29:52 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:53:29 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:53:29 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[31-Oct-2022 06:53:29 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[19-Nov-2022 20:37:49 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[19-Nov-2022 20:37:49 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[19-Nov-2022 20:37:49 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[24-Nov-2022 05:11:40 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5816
+[25-Nov-2022 00:20:09 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[25-Nov-2022 00:20:09 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[25-Nov-2022 00:20:09 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[25-Nov-2022 00:24:35 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[25-Nov-2022 00:24:35 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[25-Nov-2022 00:24:35 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[29-Nov-2022 14:23:42 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[29-Nov-2022 14:23:42 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[29-Nov-2022 14:23:42 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Nov-2022 10:32:47 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Nov-2022 10:32:47 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Nov-2022 10:32:47 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[08-Dec-2022 19:26:00 UTC] PHP Fatal error:  Cannot redeclare getUserData() (previously declared in /home/servhub/api.test.hotelsoffline.com/functions.php:3932) in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5991
+[08-Dec-2022 19:26:34 UTC] PHP Fatal error:  Cannot redeclare getUserData() (previously declared in /home/servhub/api.test.hotelsoffline.com/functions.php:3932) in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5991
+[08-Dec-2022 19:26:34 UTC] PHP Fatal error:  Cannot redeclare getUserData() (previously declared in /home/servhub/api.test.hotelsoffline.com/functions.php:3932) in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5991
+[09-Dec-2022 08:01:27 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Dec-2022 08:01:27 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[09-Dec-2022 08:01:27 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[14-Dec-2022 07:19:47 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[14-Dec-2022 07:19:47 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[14-Dec-2022 07:19:47 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[14-Dec-2022 07:21:21 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[14-Dec-2022 07:21:21 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[14-Dec-2022 07:21:21 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Dec-2022 12:02:05 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Dec-2022 12:02:05 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Dec-2022 12:02:05 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Dec-2022 16:11:59 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Dec-2022 16:11:59 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[30-Dec-2022 16:11:59 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[22-Jan-2023 15:40:52 UTC] PHP Notice:  Trying to get property 'hotelname' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[22-Jan-2023 15:40:52 UTC] PHP Notice:  Trying to get property 'country' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30
+[22-Jan-2023 15:40:52 UTC] PHP Notice:  Trying to get property 'city' of non-object in /home/servhub/api.test.hotelsoffline.com/v1/dmc/createDynamicContract.php on line 30

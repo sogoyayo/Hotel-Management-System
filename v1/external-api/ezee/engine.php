@@ -1,0 +1,5 @@
+<?
+include('check-availability.php');
+
+
+?>

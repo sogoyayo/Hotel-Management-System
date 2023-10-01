@@ -1,0 +1,29 @@
+[
+{
+"roomtypeunkid": "123400000000000001",
+"roomtype": "King",
+"shortcode": "KNG",
+"base_adult_occupancy": "2",
+"base_child_occupancy": "2",
+"max_adult_occupancy": "4",
+"max_child_occupancy": "4"
+},
+{
+"roomtypeunkid": "123400000000000004",
+"roomtype": "Deluxe",
+"shortcode": "DLX",
+"base_adult_occupancy": "5",
+"base_child_occupancy": "5",
+"max_adult_occupancy": "6",
+"max_child_occupancy": "7"
+},
+{
+"roomtypeunkid": "123400000000000006",
+"roomtype": "Suite River View",
+"shortcode": "SRV",
+"base_adult_occupancy": "3",
+"base_child_occupancy": "2",
+"max_adult_occupancy": "5",
+"max_child_occupancy": "3"
+}
+]

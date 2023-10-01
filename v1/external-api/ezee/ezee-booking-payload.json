@@ -1,0 +1,65 @@
+{
+  "Room_Details": {
+    "Room_1": {
+      "Rateplan_Id": "[RATEPLAN_ID]", /* Mandatory */
+      "Ratetype_Id": "[RATETYPE_ID]", /* Mandatory */
+      "Roomtype_Id": "[ROOMTYPE_ID]", /* Mandatory */
+      "baserate": "[BASERATE]", /* Mandatory */
+      "extradultrate": "[EXTRADULTRATE]", /* Mandatory */
+      "extrachildrate": "[EXTRACHILDRATE]", /* Mandatory */
+      "number_adults": "[NUMBER_ADULTS]", /* Mandatory */
+      "number_children": "[NUMBER_CHILDREN]", /* Mandatory */
+      "ExtraChild_Age": "[EXTRACHILD_AGE]", /* Mandatory if number_children is not zero*/
+      "Package_Details": { /* If package is booked then only pass below details and for package otherwise ignore :*/
+        "Package_Id": "[PACKAGE_ID]", /* Mandatory */
+        "Package_Name": "[PACKAGE_NAME]", /* Mandatory */
+        "Package_Description": "PACKAGE_DESCRIPTION"
+      },
+      "Promotion_Details": { /* If room is booked using promotional code then only pass below details and for promotion otherwise ignore: */
+        "Promotional_Code": "[PROMOTIONAL_CODE]", /* Mandatory */
+        "Promotion_Id": "[PROMOTION_ID]", /* Mandatory */
+        "Promotion_Name": "[PROMOTION_NAME]", /* Mandatory */
+        "Promotion_Description": "[PROMOTION_DESCRIPTION]"
+      },
+      "Title": "[TITLE]",
+      "First_Name": "[FIRST_NAME]", /* Mandatory */
+      "Last_Name": "[LAST_NAME]", /* Mandatory */
+      "Gender": "[GENDER]",
+      "SpecialRequest": "[SPECIALREQUEST]"
+    },
+    "Room_2": {}
+  },
+  "ExtraCharge": { /* This will be useful when various Extra Charges exist in system and booker take any extra charge in booking. */
+    "Extra_1": {
+      "ExtraChargeId": "[EXTRACHARGEID]", /* Mandatory */
+      "ChargeAdult": "[CHARGEADULT]" /* Mandatory */
+    },
+    "Extra_2": {
+      "ExtraChargeId": "[EXTRACHARGEID]",
+      "ChargeChild": "[CHARGECHILD]"
+    },
+  },
+  "CardDetails": { /* All below parameters related to CardDetails are mandatory for inserting card details in transaction. If any of the below listed parameter is missing card details won’t be added in transaction. */
+    "cc_cardnumber": "[CC_CARDNUMBER]",
+    "cc_cardtype": "[CC_CARDTYPE]",
+    "cc_expiremonth": "[CC_EXPIREMONTH]",
+    "cc_expireyear": "[CC_EXPIERYEAR]",
+    "cvvcode": "[CVVCODE]",
+    "cardholdername": "[CARDHOLDERNAME]"
+  },
+  "check_in_date": "[CHECK_IN_DATE]", /* Mandatory */
+  "check_out_date": "[CHECK_OUT_DATE]", /* Mandatory */
+  "Booking_Payment_Mode": "[BOOKING_PAYMENT_MODE]",
+  "Email_Address": "[EMAIL_ADDRESS]", /* Mandatory */
+  "Source_Id": "[SOURCE_ID]",
+  "MobileNo": "[MOBILENO]",
+  "Address": "[ADDRESS]",
+  "State": "STATE",
+  "Country": "[COUNTRY]",
+  "City": "[CITY]",
+  "Zipcode": "[ZIPCODE]",
+  "Fax": "[FAX]",
+  "Device": "[DEVICE]",
+  "Languagekey": "[LANGUAGEKEY]",
+  "paymenttypeunkid": "[PAYMENTGATEWAY_ID]"
+}

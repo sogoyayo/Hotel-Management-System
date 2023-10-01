@@ -1,0 +1,19 @@
+<IfModule mod_headers.c>
+    Header set Strict-Transport-Security max-age=16070400;
+    Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+	Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+# Header set Access-Control-Allow-Origin "*"
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.php -f
+RewriteRule .* $0.php [L]
+
+RewriteEngine On
+# Options -MultiViews
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

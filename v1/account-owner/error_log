@@ -1,0 +1,110 @@
+[15-Aug-2022 07:46:29 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[16-Aug-2022 03:32:44 UTC] PHP Notice:  Undefined property: stdClass::$country in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 35
+[16-Aug-2022 03:32:44 UTC] PHP Notice:  Undefined property: stdClass::$city in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 36
+[16-Aug-2022 03:32:44 UTC] PHP Notice:  Undefined property: stdClass::$longitude in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 37
+[16-Aug-2022 03:32:44 UTC] PHP Notice:  Undefined property: stdClass::$latitude in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 38
+[16-Aug-2022 03:32:44 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 45
+[16-Aug-2022 05:21:07 UTC] PHP Notice:  Undefined property: stdClass::$country in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 35
+[16-Aug-2022 05:21:07 UTC] PHP Notice:  Undefined property: stdClass::$city in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 36
+[16-Aug-2022 05:21:07 UTC] PHP Notice:  Undefined property: stdClass::$longitude in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 37
+[16-Aug-2022 05:21:07 UTC] PHP Notice:  Undefined property: stdClass::$latitude in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 38
+[16-Aug-2022 05:21:07 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 45
+[16-Aug-2022 05:22:27 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[16-Aug-2022 05:22:27 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[16-Aug-2022 05:26:12 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[16-Aug-2022 23:07:20 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[16-Aug-2022 23:07:20 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[16-Aug-2022 23:07:24 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[16-Aug-2022 23:07:24 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[16-Aug-2022 23:07:26 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[16-Aug-2022 23:07:26 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[18-Aug-2022 05:54:25 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[18-Aug-2022 08:50:28 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[18-Aug-2022 12:14:16 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[18-Aug-2022 14:05:46 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[18-Aug-2022 14:05:46 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[18-Aug-2022 14:07:12 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[18-Aug-2022 14:07:12 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[30-Aug-2022 20:42:53 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 45
+[31-Aug-2022 05:51:04 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[31-Aug-2022 05:51:04 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[31-Aug-2022 06:24:47 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[31-Aug-2022 06:24:47 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[31-Aug-2022 11:26:30 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[31-Aug-2022 11:26:30 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[27-Sep-2022 04:40:08 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 45
+[27-Sep-2022 04:40:49 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[27-Sep-2022 04:40:49 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[25-Oct-2022 14:37:46 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 45
+[26-Oct-2022 23:47:50 UTC] PHP Notice:  Undefined property: stdClass::$street in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 39
+[26-Oct-2022 23:47:50 UTC] PHP Notice:  Undefined property: stdClass::$star in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 40
+[26-Oct-2022 23:47:50 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 48
+[26-Oct-2022 23:52:40 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[26-Oct-2022 23:52:40 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[31-Oct-2022 04:51:23 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 48
+[31-Oct-2022 05:30:37 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[31-Oct-2022 05:30:37 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[03-Nov-2022 15:43:51 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[03-Nov-2022 15:43:51 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[05-Nov-2022 19:48:04 UTC] PHP Notice:  Undefined property: stdClass::$star in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 40
+[05-Nov-2022 19:48:04 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[05-Nov-2022 19:48:04 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[05-Nov-2022 19:48:04 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 49
+[05-Nov-2022 19:48:04 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 2984
+[05-Nov-2022 19:48:04 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3005
+[05-Nov-2022 19:48:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3008
+[05-Nov-2022 19:48:04 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3011
+[10-Nov-2022 04:14:40 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[10-Nov-2022 04:14:40 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[10-Nov-2022 04:14:40 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 49
+[10-Nov-2022 04:14:40 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 2984
+[10-Nov-2022 04:14:40 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3005
+[10-Nov-2022 04:14:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3008
+[10-Nov-2022 04:14:40 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3011
+[27-Nov-2022 16:50:08 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[27-Nov-2022 16:50:08 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[30-Nov-2022 03:07:35 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[30-Nov-2022 03:07:35 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[30-Nov-2022 03:07:35 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 49
+[30-Nov-2022 03:07:35 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 2984
+[30-Nov-2022 03:07:35 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3005
+[30-Nov-2022 03:07:35 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3008
+[30-Nov-2022 03:07:35 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3011
+[30-Nov-2022 03:08:12 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[30-Nov-2022 03:08:12 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[30-Nov-2022 03:23:13 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[30-Nov-2022 03:23:13 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[30-Nov-2022 05:33:54 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[30-Nov-2022 05:33:54 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[03-Dec-2022 08:04:36 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[03-Dec-2022 08:04:36 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[29-Dec-2022 13:46:29 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[29-Dec-2022 13:46:29 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[30-Dec-2022 16:14:21 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[30-Dec-2022 16:14:21 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[30-Dec-2022 16:14:21 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 49
+[30-Dec-2022 16:14:21 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 2984
+[30-Dec-2022 16:14:21 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3005
+[30-Dec-2022 16:14:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3008
+[30-Dec-2022 16:14:21 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3011
+[30-Dec-2022 16:14:37 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[30-Dec-2022 16:14:37 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[30-Dec-2022 16:15:09 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[30-Dec-2022 16:15:09 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[30-Dec-2022 16:15:39 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[30-Dec-2022 16:15:39 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[04-Jan-2023 08:31:57 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[04-Jan-2023 08:31:57 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27
+[05-Jan-2023 15:52:48 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[05-Jan-2023 15:52:48 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[22-Jan-2023 16:25:53 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[22-Jan-2023 16:25:53 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[22-Jan-2023 16:25:53 UTC] PHP Notice:  Undefined index: avatar in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/addHotel.php on line 49
+[22-Jan-2023 16:25:53 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 2984
+[22-Jan-2023 16:25:53 UTC] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3005
+[22-Jan-2023 16:25:53 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3008
+[22-Jan-2023 16:25:53 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/servhub/api.test.hotelsoffline.com/functions.php on line 3011
+[22-Jan-2023 16:26:26 UTC] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 91
+[22-Jan-2023 16:26:26 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/servhub/api.test.hotelsoffline.com/functions.php on line 157
+[22-Jan-2023 16:31:59 UTC] PHP Notice:  Undefined property: stdClass::$source in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 26
+[22-Jan-2023 16:31:59 UTC] PHP Notice:  Undefined property: stdClass::$hotelCode in /home/servhub/api.test.hotelsoffline.com/v1/account-owner/mapDMCtoHotel.php on line 27

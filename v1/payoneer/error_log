@@ -1,0 +1,106 @@
+[27-Oct-2022 16:32:47 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4839
+[27-Oct-2022 17:00:08 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4839
+[27-Oct-2022 17:00:09 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4889
+[27-Oct-2022 17:00:09 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4891
+[27-Oct-2022 17:00:09 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4892
+[27-Oct-2022 17:00:12 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4961
+[28-Oct-2022 11:27:42 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4839
+[28-Oct-2022 11:27:42 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4889
+[28-Oct-2022 11:27:42 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4891
+[28-Oct-2022 11:27:42 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4892
+[28-Oct-2022 11:27:45 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4961
+[28-Oct-2022 11:29:21 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4839
+[28-Oct-2022 11:29:21 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4889
+[28-Oct-2022 11:29:21 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4891
+[28-Oct-2022 11:29:21 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4892
+[28-Oct-2022 11:29:22 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4961
+[31-Oct-2022 16:18:38 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[31-Oct-2022 16:18:39 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[31-Oct-2022 16:18:39 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[31-Oct-2022 16:18:39 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[31-Oct-2022 16:18:42 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[02-Nov-2022 03:48:06 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[02-Nov-2022 03:48:06 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[02-Nov-2022 03:48:06 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[02-Nov-2022 03:48:06 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[02-Nov-2022 03:48:08 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[06-Nov-2022 07:55:22 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[06-Nov-2022 07:55:22 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[06-Nov-2022 07:55:22 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[06-Nov-2022 07:55:22 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[06-Nov-2022 07:55:25 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[07-Nov-2022 04:26:30 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[07-Nov-2022 04:26:30 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[07-Nov-2022 04:26:30 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[07-Nov-2022 04:26:30 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[07-Nov-2022 04:26:31 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[07-Nov-2022 16:58:42 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[07-Nov-2022 16:58:42 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[07-Nov-2022 16:58:42 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[07-Nov-2022 16:58:42 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[07-Nov-2022 16:58:44 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[23-Nov-2022 11:49:53 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[23-Nov-2022 11:49:54 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[23-Nov-2022 11:49:54 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[23-Nov-2022 11:49:54 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[23-Nov-2022 11:49:57 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[23-Nov-2022 11:52:36 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[23-Nov-2022 11:52:36 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[23-Nov-2022 11:52:36 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[23-Nov-2022 11:52:36 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[23-Nov-2022 11:52:37 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[23-Nov-2022 12:06:08 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[23-Nov-2022 12:06:09 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[23-Nov-2022 12:06:09 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[23-Nov-2022 12:06:09 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[23-Nov-2022 12:06:10 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[23-Nov-2022 12:18:12 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[23-Nov-2022 12:18:13 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[23-Nov-2022 12:18:13 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[23-Nov-2022 12:18:13 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[23-Nov-2022 12:18:15 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[24-Nov-2022 05:06:52 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5816
+[24-Nov-2022 05:06:58 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5816
+[24-Nov-2022 05:07:01 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5816
+[24-Nov-2022 05:07:15 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5816
+[24-Nov-2022 05:09:25 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5816
+[26-Nov-2022 02:49:53 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[26-Nov-2022 02:49:54 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[26-Nov-2022 02:49:54 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[26-Nov-2022 02:49:54 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[26-Nov-2022 02:49:55 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[03-Dec-2022 18:15:26 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[03-Dec-2022 18:15:27 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[03-Dec-2022 18:15:27 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[03-Dec-2022 18:15:27 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[03-Dec-2022 18:15:29 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[08-Dec-2022 22:32:13 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[08-Dec-2022 22:32:14 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[08-Dec-2022 22:32:14 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[08-Dec-2022 22:32:14 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[08-Dec-2022 22:32:17 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[09-Dec-2022 09:57:00 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[09-Dec-2022 09:57:01 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[09-Dec-2022 09:57:01 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[09-Dec-2022 09:57:01 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[09-Dec-2022 09:57:02 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[09-Dec-2022 12:37:38 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[09-Dec-2022 12:37:39 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[09-Dec-2022 12:37:39 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[09-Dec-2022 12:37:39 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[09-Dec-2022 12:37:41 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[09-Dec-2022 13:15:58 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[09-Dec-2022 13:15:59 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[09-Dec-2022 13:15:59 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[09-Dec-2022 13:15:59 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[09-Dec-2022 13:16:02 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[28-Dec-2022 07:09:12 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[28-Dec-2022 07:09:12 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[28-Dec-2022 07:09:12 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[28-Dec-2022 07:09:12 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[28-Dec-2022 07:09:15 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
+[28-Dec-2022 07:10:06 UTC] PHP Notice:  Undefined index: zip in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4878
+[28-Dec-2022 07:10:07 UTC] PHP Notice:  Undefined variable: address in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4928
+[28-Dec-2022 07:10:07 UTC] PHP Notice:  Undefined variable: city in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4930
+[28-Dec-2022 07:10:07 UTC] PHP Notice:  Undefined variable: state in /home/servhub/api.test.hotelsoffline.com/functions.php on line 4931
+[28-Dec-2022 07:10:08 UTC] PHP Warning:  curl_error(): supplied resource is not a valid cURL handle resource in /home/servhub/api.test.hotelsoffline.com/functions.php on line 5000
